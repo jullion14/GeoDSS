@@ -1,0 +1,3798 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "VOTG_PHPC",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.7789724641095, 1.3204417081279862 ]
+			},
+			"properties" : {
+				"OBJECTID" : 59,
+				"NAME" : "Arcadia Clinic",
+				"ADDRESS" : "2 Pandan Valley, #01-211",
+				"POSTALCODE" : "597626",
+				"CONTACTNODESVAXTYPE" : "64695122Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "5214E11BEE5AA899",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89672909292193, 1.3028881922821696 ]
+			},
+			"properties" : {
+				"OBJECTID" : 60,
+				"NAME" : "Assurance Medicine Clinic & Surgery",
+				"ADDRESS" : "370 Tanjong Katong Road",
+				"POSTALCODE" : "437127",
+				"CONTACTNODESVAXTYPE" : "63457810Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "17EA5E40174D1E9C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93556349529945, 1.3201488286616823 ]
+			},
+			"properties" : {
+				"OBJECTID" : 61,
+				"NAME" : "Bedok Clinic & Sugery (Family Medical Centre)",
+				"ADDRESS" : "17 Bedok South Road, #01-565",
+				"POSTALCODE" : "460017",
+				"CONTACTNODESVAXTYPE" : "62410943Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "D63BBDA0A007D039",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90534754153697, 1.306019180475882 ]
+			},
+			"properties" : {
+				"OBJECTID" : 62,
+				"NAME" : "BWell Medical and Physio",
+				"ADDRESS" : "132 East Coast Road",
+				"POSTALCODE" : "428817",
+				"CONTACTNODESVAXTYPE" : "60251329Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "4F990B954B1DC780",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.78693593461999, 1.3364363200369886 ]
+			},
+			"properties" : {
+				"OBJECTID" : 63,
+				"NAME" : "DR+ Medical & Paincare Binjai",
+				"ADDRESS" : "23 Binjai Park",
+				"POSTALCODE" : "589828",
+				"CONTACTNODESVAXTYPE" : "64693737Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "ED6B0CFA84D6F36B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84162409114775, 1.3665582922414177 ]
+			},
+			"properties" : {
+				"OBJECTID" : 64,
+				"NAME" : "CareDoc Medical Clinic",
+				"ADDRESS" : "215 Ang Mo Kio Avenue 1, #01-907",
+				"POSTALCODE" : "560215",
+				"CONTACTNODESVAXTYPE" : "65184771Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "7ED1EF462EC71453",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.77076850823148, 1.3835803175216623 ]
+			},
+			"properties" : {
+				"OBJECTID" : 65,
+				"NAME" : "Cashew Medical and Surgery",
+				"ADDRESS" : "445 Fajar Road, Fajar Shopping Centre, #2-522",
+				"POSTALCODE" : "670445",
+				"CONTACTNODESVAXTYPE" : "67634255Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "B6F8269A73915287",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.72459870145387, 1.350112436459354 ]
+			},
+			"properties" : {
+				"OBJECTID" : 66,
+				"NAME" : "Central 24-HR Clinic (Jurong West)",
+				"ADDRESS" : "492 Jurong West Street 41, #01-54",
+				"POSTALCODE" : "640492",
+				"CONTACTNODESVAXTYPE" : "65657484Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E58157A947441FF1",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.95756557656821, 1.37031156549826 ]
+			},
+			"properties" : {
+				"OBJECTID" : 67,
+				"NAME" : "Central 24-Hr Clinic (Pasir Ris)",
+				"ADDRESS" : "446 Pasir Ris Drive 6, #01-122",
+				"POSTALCODE" : "510446",
+				"CONTACTNODESVAXTYPE" : "65822640Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "42EE64CB96A2696F",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83867950584991, 1.2769243509060964 ]
+			},
+			"properties" : {
+				"OBJECTID" : 68,
+				"NAME" : "Chang Clinic & Surgery",
+				"ADDRESS" : "7 Everton Park, #01- 21",
+				"POSTALCODE" : "80007",
+				"CONTACTNODESVAXTYPE" : "62216955Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "033C9D78E081F717",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.81976944166024, 1.2777315222684138 ]
+			},
+			"properties" : {
+				"OBJECTID" : 69,
+				"NAME" : "Chung & Ee Medical Clinic",
+				"ADDRESS" : "10 Telok Blangah Cres, #01-151",
+				"POSTALCODE" : "90010",
+				"CONTACTNODESVAXTYPE" : "69963782Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "401BA3CA5E3F4A54",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.94372769692683, 1.3522780323167087 ]
+			},
+			"properties" : {
+				"OBJECTID" : 70,
+				"NAME" : "Dayspring Medical Clinic (Tampines)",
+				"ADDRESS" : "2 Tampines Central 5, Century Square, #04-09",
+				"POSTALCODE" : "529509",
+				"CONTACTNODESVAXTYPE" : "67890123Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "61935790859147EA",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.82676446378653, 1.2911348346683693 ]
+			},
+			"properties" : {
+				"OBJECTID" : 71,
+				"NAME" : "Dr Gary's Family Clinic",
+				"ADDRESS" : "77 Indus Road, #01-519",
+				"POSTALCODE" : "160077",
+				"CONTACTNODESVAXTYPE" : "69048089Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "612D94D546383E7E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.75182571015782, 1.3496327306328764 ]
+			},
+			"properties" : {
+				"OBJECTID" : 72,
+				"NAME" : "Dr Stanley Peck Family Clinic",
+				"ADDRESS" : "636 Bukit Batok Central, #01-06",
+				"POSTALCODE" : "650636",
+				"CONTACTNODESVAXTYPE" : "69177889Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "C6088BB938D1270F",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89512847643128, 1.3704794077784668 ]
+			},
+			"properties" : {
+				"OBJECTID" : 73,
+				"NAME" : "DR+ Medical & PainCare Hougang",
+				"ADDRESS" : "1187 Upper Serangoon Road #01-54 The MidTown",
+				"POSTALCODE" : "533971",
+				"CONTACTNODESVAXTYPE" : "63200118Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "9356156DD7594687",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.77780298121196, 1.443685532492176 ]
+			},
+			"properties" : {
+				"OBJECTID" : 74,
+				"NAME" : "DR+ Medical & Paincare Marsiling (formerly Lian Clinic)",
+				"ADDRESS" : "18 Marsiling Lane, #01-269",
+				"POSTALCODE" : "730018",
+				"CONTACTNODESVAXTYPE" : "62697435Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "B0DD700B9EA54B9E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.81693955318843, 1.2838812078020063 ]
+			},
+			"properties" : {
+				"OBJECTID" : 75,
+				"NAME" : "Drs. Koo, Koh and Associates",
+				"ADDRESS" : "163 Bukit Merah Central, #1-3609",
+				"POSTALCODE" : "150163",
+				"CONTACTNODESVAXTYPE" : "62712395Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "41DC2AA6039F2CFA",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84824985831683, 1.356272463396801 ]
+			},
+			"properties" : {
+				"OBJECTID" : 76,
+				"NAME" : "Edgedale Medical Clinic (Bishan)",
+				"ADDRESS" : "212 Bishan Street 23 #B1-257",
+				"POSTALCODE" : "570212",
+				"CONTACTNODESVAXTYPE" : "60150701Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "F0D43879DFF18BC0",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84824305594786, 1.3159930142079816 ]
+			},
+			"properties" : {
+				"OBJECTID" : 77,
+				"NAME" : "Edgedale Medical Clinic (Cambridge)",
+				"ADDRESS" : "40 Cambridge Road, #01-115",
+				"POSTALCODE" : "210040",
+				"CONTACTNODESVAXTYPE" : "62921088Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "4C8059D89E53003D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93672257184717, 1.3653827735218445 ]
+			},
+			"properties" : {
+				"OBJECTID" : 78,
+				"NAME" : "Edgedale Medical Clinic (Tampines)",
+				"ADDRESS" : "614 Tampines North Drive 1, #01-01",
+				"POSTALCODE" : "520614",
+				"CONTACTNODESVAXTYPE" : "69800440Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "DF2089CCD13D888F",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.80548353915643, 1.446792587300344 ]
+			},
+			"properties" : {
+				"OBJECTID" : 79,
+				"NAME" : "EH Medical",
+				"ADDRESS" : "785E Woodlands Rise, #01-12",
+				"POSTALCODE" : "735785",
+				"CONTACTNODESVAXTYPE" : "62511526Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "CB28C9B153763901",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.75539462103738, 1.3444713557933692 ]
+			},
+			"properties" : {
+				"OBJECTID" : 80,
+				"NAME" : "EH Medical Family Clinic (Bukit Batok)",
+				"ADDRESS" : "292 Bukit Batok East Avenue 6, #01-07",
+				"POSTALCODE" : "650292",
+				"CONTACTNODESVAXTYPE" : "62551368Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "CAC4BFAF6FA39C54",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.73762330357793, 1.3365846488936577 ]
+			},
+			"properties" : {
+				"OBJECTID" : 81,
+				"NAME" : "EJ Tan Clinic and Surgery",
+				"ADDRESS" : "104 Jurong East Street 13, #01-100",
+				"POSTALCODE" : "600104",
+				"CONTACTNODESVAXTYPE" : "65606600Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "4D71B7C62103765F",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8082073658521, 1.273634766616598 ]
+			},
+			"properties" : {
+				"OBJECTID" : 82,
+				"NAME" : "Elyon Family Clinic & Surgery Pte Ltd",
+				"ADDRESS" : "78B Telok Blangah Street 32, #01-22",
+				"POSTALCODE" : "102078",
+				"CONTACTNODESVAXTYPE" : "68027208Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "A5CADB213DCA0747",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90204430443822, 1.4043978242939237 ]
+			},
+			"properties" : {
+				"OBJECTID" : 83,
+				"NAME" : "Etern Medical Clinic (Punggol MRT)",
+				"ADDRESS" : "70 Pungol Centre (Punggol MRT Station), #01-05",
+				"POSTALCODE" : "828868",
+				"CONTACTNODESVAXTYPE" : "64259935Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "12C4012CA1A4B734",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89907436737484, 1.4080069424545514 ]
+			},
+			"properties" : {
+				"OBJECTID" : 84,
+				"NAME" : "Etern Medical Clinic (Punggol Sumang LRT)",
+				"ADDRESS" : "308C Punggol Walk, Waterway Terraces I, #01-302",
+				"POSTALCODE" : "823308",
+				"CONTACTNODESVAXTYPE" : "62467288Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "913BDFFAA88E68EF",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.73893180214246, 1.3780561421762008 ]
+			},
+			"properties" : {
+				"OBJECTID" : 85,
+				"NAME" : "Evercare Medical Clinic",
+				"ADDRESS" : "475 Choa Chu Kang Avenue 3, #02-02",
+				"POSTALCODE" : "680475",
+				"CONTACTNODESVAXTYPE" : "67666465Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "FB2CB1EC12522544",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8878320250965, 1.3792452844521472 ]
+			},
+			"properties" : {
+				"OBJECTID" : 86,
+				"NAME" : "Excel Family Clinic",
+				"ADDRESS" : "21 Hougang Street 51, Hougang Green Shopping Mall, #01-06",
+				"POSTALCODE" : "538719",
+				"CONTACTNODESVAXTYPE" : "63865278Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "1A35348B73936C0B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.69773209425348, 1.348743571570072 ]
+			},
+			"properties" : {
+				"OBJECTID" : 87,
+				"NAME" : "Faith Clinic (Jurong West)",
+				"ADDRESS" : "762 Jurong West Street 75, Gek Poh Shopping Centre, #02-256D",
+				"POSTALCODE" : "640762",
+				"CONTACTNODESVAXTYPE" : "67916780Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "190ABA688FD19A60",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.95656134978616, 1.3466835047572612 ]
+			},
+			"properties" : {
+				"OBJECTID" : 88,
+				"NAME" : "Faith Clinic (Simei)",
+				"ADDRESS" : "139 Simei Street 1, #01-10",
+				"POSTALCODE" : "520139",
+				"CONTACTNODESVAXTYPE" : "67884303Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "5FE2340A3C1CCC2A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84123645977593, 1.4179992555656586 ]
+			},
+			"properties" : {
+				"OBJECTID" : 89,
+				"NAME" : "Faith Clinic (Yishun)",
+				"ADDRESS" : "598 Yishun Ring Road, Wisteria Mall, #01-11",
+				"POSTALCODE" : "768698",
+				"CONTACTNODESVAXTYPE" : "63391129Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "6B840B18C3921E88",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.95787707914832, 1.360751383872291 ]
+			},
+			"properties" : {
+				"OBJECTID" : 90,
+				"NAME" : "Faith Medical Clinic & Surgery",
+				"ADDRESS" : "487C Tampines Street 45, #B1-103",
+				"POSTALCODE" : "522487",
+				"CONTACTNODESVAXTYPE" : "67881061Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "A92D34E17A8A1370",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.82889285298842, 1.431369339473623 ]
+			},
+			"properties" : {
+				"OBJECTID" : 91,
+				"NAME" : "FairCare Family Clinic (Yishun)",
+				"ADDRESS" : "103 Yishun Ring Road #01-73",
+				"POSTALCODE" : "760103",
+				"CONTACTNODESVAXTYPE" : "69709691Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "701AADFF926CBE18",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.74655731898207, 1.363266305773895 ]
+			},
+			"properties" : {
+				"OBJECTID" : 92,
+				"NAME" : "Family Care Clinic Pte Ltd",
+				"ADDRESS" : "15 Bukit Batok West Avenue 4, #01-272",
+				"POSTALCODE" : "650415",
+				"CONTACTNODESVAXTYPE" : "65671775Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "861D4B54DD6A3B43",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8429354871761, 1.3258961949850472 ]
+			},
+			"properties" : {
+				"OBJECTID" : 93,
+				"NAME" : "Family Health Clinic & Surgery",
+				"ADDRESS" : "2 Balestier Road, #01-651",
+				"POSTALCODE" : "320002",
+				"CONTACTNODESVAXTYPE" : "62542440Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "75E0039D8663194D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84789948039415, 1.372349845288457 ]
+			},
+			"properties" : {
+				"OBJECTID" : 94,
+				"NAME" : "Family Medicare Clinic & Surgery",
+				"ADDRESS" : "721 Ang Mo Kio Avenue 8, #01-2815",
+				"POSTALCODE" : "560721",
+				"CONTACTNODESVAXTYPE" : "64566582Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "A176E6D2F438C724",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8446970853951, 1.2849988277129758 ]
+			},
+			"properties" : {
+				"OBJECTID" : 95,
+				"NAME" : "Family Medicine Clinic Chinatown",
+				"ADDRESS" : "133 New Bridge Road, #02-09",
+				"POSTALCODE" : "59413",
+				"CONTACTNODESVAXTYPE" : "62255155Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "CA38BDBE62AC1154",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.80893480745452, 1.2733825128153389 ]
+			},
+			"properties" : {
+				"OBJECTID" : 96,
+				"NAME" : "Fraser Medical Centre",
+				"ADDRESS" : "78A Telok Blangah Street 32, #01-07",
+				"POSTALCODE" : "101078",
+				"CONTACTNODESVAXTYPE" : "62733603Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E29A08E02A58A10C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.76509756940766, 1.3142313103705014 ]
+			},
+			"properties" : {
+				"OBJECTID" : 97,
+				"NAME" : "Frontier Family Medicine Clinic",
+				"ADDRESS" : "3151 Commonwealth Avenue West, Grantral Mall, #04-01",
+				"POSTALCODE" : "129581",
+				"CONTACTNODESVAXTYPE" : "67788362Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "99023BBA683F11C9",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88497458055082, 1.3133202827848878 ]
+			},
+			"properties" : {
+				"OBJECTID" : 98,
+				"NAME" : "Frontier Medical",
+				"ADDRESS" : "494 Geylang Road",
+				"POSTALCODE" : "389452",
+				"CONTACTNODESVAXTYPE" : "67446336Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "C78784B3BAB663B5",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83816895946435, 1.373551784197592 ]
+			},
+			"properties" : {
+				"OBJECTID" : 99,
+				"NAME" : "Frontier Medical Associates @AMK",
+				"ADDRESS" : "163 Ang Mo Kio Avenue 4, #01-426",
+				"POSTALCODE" : "560163",
+				"CONTACTNODESVAXTYPE" : "64532571Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "39FC64BEAFA3E219",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.74394257144021, 1.3530371754477328 ]
+			},
+			"properties" : {
+				"OBJECTID" : 100,
+				"NAME" : "Frontier Medical Associates @Bt Batok",
+				"ADDRESS" : "451 Bukit Batok West Ave 6, #01-07",
+				"POSTALCODE" : "650451",
+				"CONTACTNODESVAXTYPE" : "62583035Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "C1C586894517B078",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87930909852993, 1.3808503533095824 ]
+			},
+			"properties" : {
+				"OBJECTID" : 101,
+				"NAME" : "Frontier Medical Associates @Buangkok",
+				"ADDRESS" : "982 Buangkok Crescent, #01-03",
+				"POSTALCODE" : "530982",
+				"CONTACTNODESVAXTYPE" : "63152913Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "A5D9D9B3A6DCF397",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.80148947255785, 1.4404152980339775 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1,
+				"NAME" : "Admiralty Family Medical Clinic",
+				"ADDRESS" : "Blk 678A Woodlands Ave 6 #03-15 Admiralty Place",
+				"POSTALCODE" : "731678",
+				"CONTACTNODESVAXTYPE" : "69048894Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs), Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "2638E14CED52B0B8",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.91494183652323, 1.3329587272307108 ]
+			},
+			"properties" : {
+				"OBJECTID" : 2,
+				"NAME" : "Eastern Medical Centre",
+				"ADDRESS" : "631 Bedok Reservoir Road, #01-896",
+				"POSTALCODE" : "470631",
+				"CONTACTNODESVAXTYPE" : "64487628Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs), Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E042A01FF362BF81",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93491251741769, 1.349224193140946 ]
+			},
+			"properties" : {
+				"OBJECTID" : 3,
+				"NAME" : "Our Family Physician Clinic & Surgery",
+				"ADDRESS" : "829 Tampines Street 81, #01-292",
+				"POSTALCODE" : "520829",
+				"CONTACTNODESVAXTYPE" : "67850147Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs), Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "B32C4AC988B79927",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89498003255373, 1.3920941501822675 ]
+			},
+			"properties" : {
+				"OBJECTID" : 4,
+				"NAME" : "Raffles Medical Clinic @Compass One",
+				"ADDRESS" : "1 Sengkang Square, Compass Mall One, #04-09",
+				"POSTALCODE" : "545078",
+				"CONTACTNODESVAXTYPE" : "63855057Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs), Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "3291922BCAE60421",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.82767972566815, 1.2899461813030746 ]
+			},
+			"properties" : {
+				"OBJECTID" : 5,
+				"NAME" : "Trucare Medical and Surgery (Havelock)",
+				"ADDRESS" : "51 Havelock Road, #01-04",
+				"POSTALCODE" : "161051",
+				"CONTACTNODESVAXTYPE" : "69700115Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs), Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "498A39CF9A0A5D81",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89512847643128, 1.3704794077784668 ]
+			},
+			"properties" : {
+				"OBJECTID" : 6,
+				"NAME" : "Trucare Medical Clinic And Surgery (Hougang Central)",
+				"ADDRESS" : "1187 Upper Serangoon Rd, The Midtown, #01-53",
+				"POSTALCODE" : "533971",
+				"CONTACTNODESVAXTYPE" : "63853525Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs), Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "9356156DD522E695",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84474863974096, 1.3589190705004899 ]
+			},
+			"properties" : {
+				"OBJECTID" : 7,
+				"NAME" : "Aspen Clinic",
+				"ADDRESS" : "283 Bishan St 22, #01-185",
+				"POSTALCODE" : "570283",
+				"CONTACTNODESVAXTYPE" : "64553829Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "78C2D9D38017CDD4",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.81867359993183, 1.2869200607384192 ]
+			},
+			"properties" : {
+				"OBJECTID" : 8,
+				"NAME" : "HeartlandHealth (Redhill Close)",
+				"ADDRESS" : "86 Redhill Close, #01-600",
+				"POSTALCODE" : "150086",
+				"CONTACTNODESVAXTYPE" : "68733165Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "1E376CB1073FCAD5",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93349918420576, 1.356706058261906 ]
+			},
+			"properties" : {
+				"OBJECTID" : 9,
+				"NAME" : "HeartlandHealth (Tampines)",
+				"ADDRESS" : "730 Tampines Street 71, #01-51",
+				"POSTALCODE" : "520730",
+				"CONTACTNODESVAXTYPE" : "65887833Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "31D9A8D5A9189FE3",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.74933451740456, 1.348710802336753 ]
+			},
+			"properties" : {
+				"OBJECTID" : 10,
+				"NAME" : "Northeast Medical Group (Bukit Batok)",
+				"ADDRESS" : "10 Bukit Batok Central Bukit Batok MRT Station, #01-01",
+				"POSTALCODE" : "659958",
+				"CONTACTNODESVAXTYPE" : "62661442Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "F6D1E3614EEF10C1",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.78604938723844, 1.3081188597415536 ]
+			},
+			"properties" : {
+				"OBJECTID" : 11,
+				"NAME" : "Northeast Medical Group (Ghim Moh)",
+				"ADDRESS" : "Blk 25 Ghim Moh Link, #01-10",
+				"POSTALCODE" : "270025",
+				"CONTACTNODESVAXTYPE" : "66943282Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "C18F88194332C5FC",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85702401081778, 1.3711966641032172 ]
+			},
+			"properties" : {
+				"OBJECTID" : 12,
+				"NAME" : "Well Family Clinic & Surgery",
+				"ADDRESS" : "Blk 555 Ang Mo Kio 10, #01-1948",
+				"POSTALCODE" : "560555",
+				"CONTACTNODESVAXTYPE" : "64549519Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "FB48DDADE174B4F4",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.94501946156369, 1.3543155598608112 ]
+			},
+			"properties" : {
+				"OBJECTID" : 13,
+				"NAME" : "Raffles Medical (Tampines 1)",
+				"ADDRESS" : "10 Tampines Central 1, Tampines 1, #03-28",
+				"POSTALCODE" : "529536",
+				"CONTACTNODESVAXTYPE" : "62605116Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "30AF058A2BCA574D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90198817400874, 1.406536107205987 ]
+			},
+			"properties" : {
+				"OBJECTID" : 14,
+				"NAME" : "Raffles Medical (Waterway point)",
+				"ADDRESS" : "83 Punggol Central, Waterway Point, #02-29",
+				"POSTALCODE" : "828761",
+				"CONTACTNODESVAXTYPE" : "63845655Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "92251D96B09B763E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8677742605721, 1.3323543519340149 ]
+			},
+			"properties" : {
+				"OBJECTID" : 15,
+				"NAME" : "Potong Pasir Medical Clinic",
+				"ADDRESS" : "148 Potong Pasir Avnuee 1, #01-55",
+				"POSTALCODE" : "350148",
+				"CONTACTNODESVAXTYPE" : "62624384Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "48CE6FBC55D794D2",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.78205944318391, 1.4379438119522996 ]
+			},
+			"properties" : {
+				"OBJECTID" : 16,
+				"NAME" : "Martin Medical Centre",
+				"ADDRESS" : "Blk 111 Woodlands St 13, #01-80",
+				"POSTALCODE" : "730111",
+				"CONTACTNODESVAXTYPE" : "62692446Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "7B51F9EB8CFA4F86",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88720750144276, 1.3614776531774895 ]
+			},
+			"properties" : {
+				"OBJECTID" : 17,
+				"NAME" : "DR+ Medical Paincare Clinic",
+				"ADDRESS" : "988 Upper Serangoon Road, Stars of Kovan, #01-07",
+				"POSTALCODE" : "534733",
+				"CONTACTNODESVAXTYPE" : "69086570Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "9076CB8A46CD83BA",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8858517474559, 1.3235406561273306 ]
+			},
+			"properties" : {
+				"OBJECTID" : 18,
+				"NAME" : "HeartlandHealth (Circuit Road)",
+				"ADDRESS" : "88 Circuit Road, #01-965",
+				"POSTALCODE" : "370088",
+				"CONTACTNODESVAXTYPE" : "65478840Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs).",
+				"INC_CRC" : "FDE927288273B1ED",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88637373953591, 1.317443874163596 ]
+			},
+			"properties" : {
+				"OBJECTID" : 19,
+				"NAME" : "Advantage Medical Clinic (Geylang East)",
+				"ADDRESS" : "125 Geylang East Avenue 1, Geylang East Grove, #01-K1",
+				"POSTALCODE" : "381125",
+				"CONTACTNODESVAXTYPE" : "69807780Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "48768AAB426F5018",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88663488066264, 1.3593866923924336 ]
+			},
+			"properties" : {
+				"OBJECTID" : 123,
+				"NAME" : "Intemedical (Kovan)",
+				"ADDRESS" : "210 Hougang Street 21, #01-233",
+				"POSTALCODE" : "530210",
+				"CONTACTNODESVAXTYPE" : "62433036Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "7B021BBC2535215B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.86200588093416, 1.3083269960302002 ]
+			},
+			"properties" : {
+				"OBJECTID" : 20,
+				"NAME" : "Belief Medical",
+				"ADDRESS" : "Blk 809 French Road #02-32 Kitchener Complex",
+				"POSTALCODE" : "200809",
+				"CONTACTNODESVAXTYPE" : "65924667Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "860CBBE33F9CE7A6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85082547790962, 1.3155956665307549 ]
+			},
+			"properties" : {
+				"OBJECTID" : 21,
+				"NAME" : "Everwell Clinic & Surgery",
+				"ADDRESS" : "45 Owen Rd, #01-289",
+				"POSTALCODE" : "210045",
+				"CONTACTNODESVAXTYPE" : "62969429Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "08EC3C93ECBE0519",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89299550098043, 1.3862183456462402 ]
+			},
+			"properties" : {
+				"OBJECTID" : 22,
+				"NAME" : "Island Family Clinic (Sengkang)",
+				"ADDRESS" : "279 Sengkang East Avenue, #01-05",
+				"POSTALCODE" : "540279",
+				"CONTACTNODESVAXTYPE" : "63842759Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "DB6D871EA333C77A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.75886444083982, 1.3112956589770215 ]
+			},
+			"properties" : {
+				"OBJECTID" : 23,
+				"NAME" : "Loh & Loh Clinic & Surgery",
+				"ADDRESS" : "501 West Coast Drive, #01-284",
+				"POSTALCODE" : "120501",
+				"CONTACTNODESVAXTYPE" : "67767723Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "25114CB549F380B6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84916551775471, 1.3346408398105853 ]
+			},
+			"properties" : {
+				"OBJECTID" : 24,
+				"NAME" : "My Family Clinic (Toa Payoh Central)",
+				"ADDRESS" : "79D Toa Payoh Central, #01-53",
+				"POSTALCODE" : "314079",
+				"CONTACTNODESVAXTYPE" : "62380301Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "87FB978F5B10991E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85498859127404, 1.3236391292510976 ]
+			},
+			"properties" : {
+				"OBJECTID" : 25,
+				"NAME" : "Plushealth Medical Clinic & Surgery",
+				"ADDRESS" : "89 Whampoa Drive, #01-841",
+				"POSTALCODE" : "320089",
+				"CONTACTNODESVAXTYPE" : "62647845Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "FC857EF7AB2724B7",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.9034453136073, 1.417874666557728 ]
+			},
+			"properties" : {
+				"OBJECTID" : 26,
+				"NAME" : "ProHealth Medical Group @Punggol North Shore",
+				"ADDRESS" : "408 Northshore Drive, Northshore Plaza, #01-26",
+				"POSTALCODE" : "820408",
+				"CONTACTNODESVAXTYPE" : "69087984Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "55A402766C9967F3",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.91053692694967, 1.400531145267019 ]
+			},
+			"properties" : {
+				"OBJECTID" : 27,
+				"NAME" : "Prohealth Medical Group @Punggol Spectra",
+				"ADDRESS" : "622D Punggol Central, #01-02",
+				"POSTALCODE" : "824622",
+				"CONTACTNODESVAXTYPE" : "64447701Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "F28C55E234463595",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89304998226348, 1.383694163045714 ]
+			},
+			"properties" : {
+				"OBJECTID" : 28,
+				"NAME" : "Q & M Medical Clinic (Buangkok MRT) Pte Ltd",
+				"ADDRESS" : "10 Sengkang Central, Buangkok MRT Station, #01-02",
+				"POSTALCODE" : "545061",
+				"CONTACTNODESVAXTYPE" : "62429133Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "83863B0F031E9616",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87119038428787, 1.391836880802953 ]
+			},
+			"properties" : {
+				"OBJECTID" : 29,
+				"NAME" : "Suncare Medical Clinic (Sengkang West)",
+				"ADDRESS" : "455 Sengkang West Avenue, Multi Storey Car Park, #01-08",
+				"POSTALCODE" : "790455",
+				"CONTACTNODESVAXTYPE" : "69706570Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "68394F2557D98308",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.82678426812033, 1.2856723143903752 ]
+			},
+			"properties" : {
+				"OBJECTID" : 30,
+				"NAME" : "The iClinic",
+				"ADDRESS" : "18 Jalan Membina, #02-07",
+				"POSTALCODE" : "164018",
+				"CONTACTNODESVAXTYPE" : "62713135Please call clinic for vaccination operating hours\n\n*The vaccine is only available as a second dose via the Special Access Route (SAR) for those who have received Novavax/Nuvaxovid as their first dose before 1 December 2023. Novavax/Nuvaxovid XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E6A2ED8F2BFA9772",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85464498781606, 1.3627154140066622 ]
+			},
+			"properties" : {
+				"OBJECTID" : 31,
+				"NAME" : "1 Medical Teck Ghee",
+				"ADDRESS" : "410 Ang Mo Kio Avenue10 #01-837 Teck Ghee Square",
+				"POSTALCODE" : "560410",
+				"CONTACTNODESVAXTYPE" : "62517030Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "77DA633713C5E05B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85524767595508, 1.3619134716813541 ]
+			},
+			"properties" : {
+				"OBJECTID" : 32,
+				"NAME" : "360 Clinic",
+				"ADDRESS" : "407 Ang Mo Kio Avenue 10 #01-749 Teck Ghee Square",
+				"POSTALCODE" : "560407",
+				"CONTACTNODESVAXTYPE" : "82180926Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "73A451ACB97AD0F8",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88390010490147, 1.3094160608248 ]
+			},
+			"properties" : {
+				"OBJECTID" : 33,
+				"NAME" : "57 Medical Clinic (Kallang Airport)",
+				"ADDRESS" : "32 Cassia Crescent #01-62",
+				"POSTALCODE" : "390032",
+				"CONTACTNODESVAXTYPE" : "65189262Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "AE98A1811E9C720D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90599603789951, 1.3018873340027872 ]
+			},
+			"properties" : {
+				"OBJECTID" : 34,
+				"NAME" : "57 Medical clinic (Parkway Centre)",
+				"ADDRESS" : "1 Marine Parade Central #02-05 Parkway Centre",
+				"POSTALCODE" : "449408",
+				"CONTACTNODESVAXTYPE" : "62149612Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "C2B4194A6E6E6E3D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84981767968152, 1.315437617625341 ]
+			},
+			"properties" : {
+				"OBJECTID" : 35,
+				"NAME" : "57 Medical Clinic (Pek Kio)",
+				"ADDRESS" : "41 Cambridge Road #01-17",
+				"POSTALCODE" : "210041",
+				"CONTACTNODESVAXTYPE" : "65399237Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "EC9E3564EEFF604E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.77540047850309, 1.4336333349575028 ]
+			},
+			"properties" : {
+				"OBJECTID" : 36,
+				"NAME" : "57 Medical Clinic (Woodlands)",
+				"ADDRESS" : "166 Woodlands Street 13 #01-533",
+				"POSTALCODE" : "730166",
+				"CONTACTNODESVAXTYPE" : "65399236Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "13D4CADA96BEA13C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88317967823431, 1.3026393363578697 ]
+			},
+			"properties" : {
+				"OBJECTID" : 37,
+				"NAME" : "Inspire Medical Clinic (Jalan Batu)",
+				"ADDRESS" : "8 Jalan Batu, #01-11",
+				"POSTALCODE" : "431008",
+				"CONTACTNODESVAXTYPE" : "88157214Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "F3C500F025BFCC7F",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93734335801608, 1.3291986781920446 ]
+			},
+			"properties" : {
+				"OBJECTID" : 38,
+				"NAME" : "Lee Clinic",
+				"ADDRESS" : "123 Bedok North Street 2, #01-156",
+				"POSTALCODE" : "460123",
+				"CONTACTNODESVAXTYPE" : "62418827Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "B779D37DDB316CA0",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.9351473315461, 1.358815261857566 ]
+			},
+			"properties" : {
+				"OBJECTID" : 39,
+				"NAME" : "Praise Family Clinic",
+				"ADDRESS" : "Blk 717 Tampines Street 72 #01-75",
+				"POSTALCODE" : "520717",
+				"CONTACTNODESVAXTYPE" : "67843785Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "3CD9ECB165ACA111",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.98516965326814, 1.3543707361736141 ]
+			},
+			"properties" : {
+				"OBJECTID" : 40,
+				"NAME" : "Raffles Medical (Terminal 3)",
+				"ADDRESS" : "65 Airport Boulevard, #B2-01, Singapore Changi Airport, \n(Located behind 4 Fingers Restaurant)",
+				"POSTALCODE" : "819663",
+				"CONTACTNODESVAXTYPE" : "62418818Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "1A6E905CF5497C21",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85210430129725, 1.2846947769764079 ]
+			},
+			"properties" : {
+				"OBJECTID" : 41,
+				"NAME" : "Raffles Medical Raffles Place",
+				"ADDRESS" : "50 Raffles Place, Singapore Land Tower #01-02A",
+				"POSTALCODE" : "48623",
+				"CONTACTNODESVAXTYPE" : "65352222Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "0B6ACBE0C16960D6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.9420278370145, 1.3534412674541838 ]
+			},
+			"properties" : {
+				"OBJECTID" : 42,
+				"NAME" : "SATA CommHealth (Tampines)",
+				"ADDRESS" : "5 Tampines Central 6, #01-01A Telepark Building",
+				"POSTALCODE" : "529482",
+				"CONTACTNODESVAXTYPE" : "62446688Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "1E7AB917A230B0B4",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.71704837360402, 1.3476718930827303 ]
+			},
+			"properties" : {
+				"OBJECTID" : 43,
+				"NAME" : "Tayka Medical Family Clinic",
+				"ADDRESS" : "526 Jurong West Street 52, #01-323",
+				"POSTALCODE" : "640526",
+				"CONTACTNODESVAXTYPE" : "65645528Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "F8536A04F3C10606",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.86080742153912, 1.327549078558799 ]
+			},
+			"properties" : {
+				"OBJECTID" : 44,
+				"NAME" : "The Tenteram Clinic",
+				"ADDRESS" : "116B Jalan Tenteram, #01-549",
+				"POSTALCODE" : "322116",
+				"CONTACTNODESVAXTYPE" : "62507991Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "7011153829E0DFF4",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.95225219088152, 1.3583606845199343 ]
+			},
+			"properties" : {
+				"OBJECTID" : 45,
+				"NAME" : "Viva Medical Clinic (Tampines)",
+				"ADDRESS" : "450A Tampines Street 42, #01-356",
+				"POSTALCODE" : "521450",
+				"CONTACTNODESVAXTYPE" : "67828020Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "3450E8F1FAF657E2",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.76301734545578, 1.3879058378372886 ]
+			},
+			"properties" : {
+				"OBJECTID" : 46,
+				"NAME" : "OneCare Clinic Senja",
+				"ADDRESS" : "643 Senja Close #01-03",
+				"POSTALCODE" : "670643",
+				"CONTACTNODESVAXTYPE" : "65139533Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "D4C31944F472B924",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.92995374623445, 1.323981847551322 ]
+			},
+			"properties" : {
+				"OBJECTID" : 47,
+				"NAME" : "OneCare Clinic Bedok",
+				"ADDRESS" : "315 New Upper Changi Road #01-01",
+				"POSTALCODE" : "467347",
+				"CONTACTNODESVAXTYPE" : "69700813Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "3E168D458869EEB5",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84378525975804, 1.35722283100603 ]
+			},
+			"properties" : {
+				"OBJECTID" : 48,
+				"NAME" : "OneCare Clinic Bishan",
+				"ADDRESS" : "279 Bishan Street 24 #01-44",
+				"POSTALCODE" : "570279",
+				"CONTACTNODESVAXTYPE" : "65133439Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "C5A26C2D8F1F3241",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.71884375816856, 1.3498275966348428 ]
+			},
+			"properties" : {
+				"OBJECTID" : 49,
+				"NAME" : "OneCare Clinic Jurong West",
+				"ADDRESS" : "504 Jurong West Street 51 #01-217",
+				"POSTALCODE" : "640504",
+				"CONTACTNODESVAXTYPE" : "65131475Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "B9D093AE7A413F7D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84516276497294, 1.281213719325178 ]
+			},
+			"properties" : {
+				"OBJECTID" : 50,
+				"NAME" : "A Family Clinic",
+				"ADDRESS" : "7 Erskine Road",
+				"POSTALCODE" : "69320",
+				"CONTACTNODESVAXTYPE" : "62262066Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "674CBD763D7EBC5D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84000118846713, 1.2774265380425598 ]
+			},
+			"properties" : {
+				"OBJECTID" : 51,
+				"NAME" : "A Medical Clinic",
+				"ADDRESS" : "1 Everton Park, #01-27",
+				"POSTALCODE" : "81001",
+				"CONTACTNODESVAXTYPE" : "62262066Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "2305DA5FD2910828",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93003652710787, 1.3285642062018121 ]
+			},
+			"properties" : {
+				"OBJECTID" : 52,
+				"NAME" : "A1 Medical Clinic",
+				"ADDRESS" : "418 Bedok North Avenue 2, #01-63",
+				"POSTALCODE" : "460418",
+				"CONTACTNODESVAXTYPE" : "64930198Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "AC9320426D6A1E7F",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.80302376224493, 1.2822013543279167 ]
+			},
+			"properties" : {
+				"OBJECTID" : 53,
+				"NAME" : "Acacia Medical Clinic",
+				"ADDRESS" : "180 Depot Road, The Interlace, #01-07",
+				"POSTALCODE" : "109684",
+				"CONTACTNODESVAXTYPE" : "66840274Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "5E4A569380F60587",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.91414508257893, 1.332050943479474 ]
+			},
+			"properties" : {
+				"OBJECTID" : 54,
+				"NAME" : "Advantage Medical Clinic (Bedok)",
+				"ADDRESS" : "632 Bedok Reservoir Road #01-880",
+				"POSTALCODE" : "470632",
+				"CONTACTNODESVAXTYPE" : "91773288Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "4152F033335B4EBD",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.72459870145387, 1.350112436459354 ]
+			},
+			"properties" : {
+				"OBJECTID" : 55,
+				"NAME" : "Advantage Medical Clinic (Jurong West)",
+				"ADDRESS" : "492 Jurong West Street 41 #01-56",
+				"POSTALCODE" : "640492",
+				"CONTACTNODESVAXTYPE" : "60150107Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E58157A92228A761",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.72245125337314, 1.3323734732876176 ]
+			},
+			"properties" : {
+				"OBJECTID" : 56,
+				"NAME" : "Acumed Medical (Taman Jurong)",
+				"ADDRESS" : "64 Yung Kuang Road, #01-107/11",
+				"POSTALCODE" : "610064",
+				"CONTACTNODESVAXTYPE" : "62656422Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "DC7E6A0AA4BAAFCE",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.70646088413002, 1.339830152579402 ]
+			},
+			"properties" : {
+				"OBJECTID" : 57,
+				"NAME" : "Acumed Medical Group Jurong Point",
+				"ADDRESS" : "1 Jurong West Central 2, Jurong Point Shopping Centre, #B1A-19E",
+				"POSTALCODE" : "648886",
+				"CONTACTNODESVAXTYPE" : "67923822Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "FCA5451CAD3E0441",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87075682975393, 1.3536710237759502 ]
+			},
+			"properties" : {
+				"OBJECTID" : 58,
+				"NAME" : "Affinity Medical Clinic",
+				"ADDRESS" : "253 Serangoon Central Drive, #01-187",
+				"POSTALCODE" : "550253",
+				"CONTACTNODESVAXTYPE" : "62808080Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "67B5BB9CE4862896",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84874827708485, 1.3636167098197944 ]
+			},
+			"properties" : {
+				"OBJECTID" : 124,
+				"NAME" : "Intemedical (Teck Ghee)",
+				"ADDRESS" : "338 Ang Mo Kio Avenue 1 #01-1625 Teck Ghee Court",
+				"POSTALCODE" : "560338",
+				"CONTACTNODESVAXTYPE" : "69049579Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "D5DB05A7F76DFCFD",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87119038428787, 1.391836880802953 ]
+			},
+			"properties" : {
+				"OBJECTID" : 125,
+				"NAME" : "Island Family Clinic (Seletar)",
+				"ADDRESS" : "455 Sengkang West Avenue, #01-14",
+				"POSTALCODE" : "790455",
+				"CONTACTNODESVAXTYPE" : "69088280Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "68394F2595C0D758",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.9198930649441, 1.3371650728412552 ]
+			},
+			"properties" : {
+				"OBJECTID" : 126,
+				"NAME" : "Joy Family Clinic",
+				"ADDRESS" : "703 Bedok Reservior Road, #01-3506",
+				"POSTALCODE" : "470703",
+				"CONTACTNODESVAXTYPE" : "64422483Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "3A1DD86EB6F0B8F1",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93431524194577, 1.3554217662963508 ]
+			},
+			"properties" : {
+				"OBJECTID" : 127,
+				"NAME" : "Karri Family Clinic",
+				"ADDRESS" : "866A Tampines Street 83, Tampines Central Community Complex, #03-05",
+				"POSTALCODE" : "521866",
+				"CONTACTNODESVAXTYPE" : "67850311Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "870CF4E84E270A03",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.74492381272233, 1.3840651592654132 ]
+			},
+			"properties" : {
+				"OBJECTID" : 128,
+				"NAME" : "Keat Hong Family Medicine Clinic",
+				"ADDRESS" : "2 Choa Chu Kang Loop, Keat Hong Community Club, #03-02",
+				"POSTALCODE" : "689687",
+				"CONTACTNODESVAXTYPE" : "67690750Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "238C3F29BE0BDC17",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.91935398341339, 1.3999115592767977 ]
+			},
+			"properties" : {
+				"OBJECTID" : 129,
+				"NAME" : "Kenneth Tan Medical Clinic",
+				"ADDRESS" : "658 Punggol East, #01-07",
+				"POSTALCODE" : "820658",
+				"CONTACTNODESVAXTYPE" : "63124589Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "DBB2CC7CAA1F31F7",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.86832139022793, 1.3210002014770557 ]
+			},
+			"properties" : {
+				"OBJECTID" : 130,
+				"NAME" : "Kindred Family Clinic (Kallang Baru)",
+				"ADDRESS" : "63 Kallang Bahru #01-435 Kallang Bahru Ville",
+				"POSTALCODE" : "330063",
+				"CONTACTNODESVAXTYPE" : "69046642Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "99695304CD3AB603",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.95571753304083, 1.3628725908911519 ]
+			},
+			"properties" : {
+				"OBJECTID" : 131,
+				"NAME" : "Kindred Family Clinic (Tampines)",
+				"ADDRESS" : "494 Tampines Street 45, #01-02",
+				"POSTALCODE" : "523494",
+				"CONTACTNODESVAXTYPE" : "62327893Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "A97BC16E5A1824AE",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83109096019551, 1.4366011007819324 ]
+			},
+			"properties" : {
+				"OBJECTID" : 132,
+				"NAME" : "Kindred Family Clinic (Yishun)",
+				"ADDRESS" : "172 Yishun Avenue 7 #01-787",
+				"POSTALCODE" : "760172",
+				"CONTACTNODESVAXTYPE" : "65924504Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "71C208B68F053C61",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87218114983479, 1.314756582434955 ]
+			},
+			"properties" : {
+				"OBJECTID" : 133,
+				"NAME" : "Ko Family Clinic",
+				"ADDRESS" : "18 Upper Boon Keng Road, #01-1133",
+				"POSTALCODE" : "380018",
+				"CONTACTNODESVAXTYPE" : "68421403Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "719B6AB3402BC830",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90637160867136, 1.3995094177884047 ]
+			},
+			"properties" : {
+				"OBJECTID" : 134,
+				"NAME" : "Lifeline Punggol Medical Clinic Pte. Ltd.",
+				"ADDRESS" : "198 Punggol Field, #02-03",
+				"POSTALCODE" : "820198",
+				"CONTACTNODESVAXTYPE" : "63155428Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "556E175516DF3B41",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89046698664517, 1.3149766412922932 ]
+			},
+			"properties" : {
+				"OBJECTID" : 135,
+				"NAME" : "M Lam Clinic",
+				"ADDRESS" : "739 Geylang Road",
+				"POSTALCODE" : "389649",
+				"CONTACTNODESVAXTYPE" : "67481949Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "3D4552AFB840FF5A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.91472178279025, 1.305859665777845 ]
+			},
+			"properties" : {
+				"OBJECTID" : 136,
+				"NAME" : "Marine Parade Clinic",
+				"ADDRESS" : "59 Marine Terrace, #01-81",
+				"POSTALCODE" : "440059",
+				"CONTACTNODESVAXTYPE" : "62419065Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "D99919F0DF2D5D31",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89538702755254, 1.403227120511217 ]
+			},
+			"properties" : {
+				"OBJECTID" : 137,
+				"NAME" : "Medi Healthcare Clinic (Punggol)",
+				"ADDRESS" : "218 Sumang Walk, #01-02",
+				"POSTALCODE" : "820218",
+				"CONTACTNODESVAXTYPE" : "64448748Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "831619364369316E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85104923043068, 1.3471866716964003 ]
+			},
+			"properties" : {
+				"OBJECTID" : 138,
+				"NAME" : "DR+ Medical & Paincare Bishan Clinic",
+				"ADDRESS" : "121 Bishan Street 12, #01-95",
+				"POSTALCODE" : "570121",
+				"CONTACTNODESVAXTYPE" : "62583212Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "4EEAAA87B8266097",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88924675637686, 1.396849791757447 ]
+			},
+			"properties" : {
+				"OBJECTID" : 139,
+				"NAME" : "Medivene Clinic & Surgery",
+				"ADDRESS" : "330 Anchorvale Street, #01-05",
+				"POSTALCODE" : "540330",
+				"CONTACTNODESVAXTYPE" : "63850441Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "3F267FB0B76ABFAB",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8445162314529, 1.3337851937641962 ]
+			},
+			"properties" : {
+				"OBJECTID" : 140,
+				"NAME" : "Mediview Clinic and Surgery",
+				"ADDRESS" : "150 Toa Payoh Lorong 1 #01-999",
+				"POSTALCODE" : "310150",
+				"CONTACTNODESVAXTYPE" : "62532351Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "2CD761E0A47FAEB6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88689846089684, 1.3739584029196459 ]
+			},
+			"properties" : {
+				"OBJECTID" : 141,
+				"NAME" : "Medlife Clinic & Surgery",
+				"ADDRESS" : "684 Hougang Ave 8, #01-985",
+				"POSTALCODE" : "530684",
+				"CONTACTNODESVAXTYPE" : "63850836Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "295BF843DFE729AC",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.80280667126166, 1.2927403782583218 ]
+			},
+			"properties" : {
+				"OBJECTID" : 142,
+				"NAME" : "Mei Ling Clinic",
+				"ADDRESS" : "158 Mei Ling Street, #01-80",
+				"POSTALCODE" : "140158",
+				"CONTACTNODESVAXTYPE" : "64741782Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "26E45DBBA4AC382C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8470503555942, 1.3329654910772795 ]
+			},
+			"properties" : {
+				"OBJECTID" : 143,
+				"NAME" : "Mei Ling Clinic (Toa Payoh)",
+				"ADDRESS" : "500 Lor 6 Toa Payoh, BIZ ONE HDB Hub, #04-33",
+				"POSTALCODE" : "310500",
+				"CONTACTNODESVAXTYPE" : "62535600Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E8A79092F6DD5CF2",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87928096010965, 1.354508681044979 ]
+			},
+			"properties" : {
+				"OBJECTID" : 144,
+				"NAME" : "Mission Medical Clinic",
+				"ADDRESS" : "780 Upper Serangoon Road, #01-01",
+				"POSTALCODE" : "534649",
+				"CONTACTNODESVAXTYPE" : "62892100Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E6554CF6E6DB51B1",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.75886444083982, 1.3112956589770215 ]
+			},
+			"properties" : {
+				"OBJECTID" : 145,
+				"NAME" : "MyHealth Medical Centre",
+				"ADDRESS" : "501 West Coast Drive, #01-256",
+				"POSTALCODE" : "120501",
+				"CONTACTNODESVAXTYPE" : "68726920Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "25114CB5FC471F5C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8100313187027, 1.2811222640496154 ]
+			},
+			"properties" : {
+				"OBJECTID" : 146,
+				"NAME" : "New Health Family Clinic",
+				"ADDRESS" : "108 Depot Road, #01-08",
+				"POSTALCODE" : "100108",
+				"CONTACTNODESVAXTYPE" : "62786200Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "2C3E09B6D49CD765",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8307225857939, 1.3050872212538245 ]
+			},
+			"properties" : {
+				"OBJECTID" : 147,
+				"NAME" : "Newcastle Clinic",
+				"ADDRESS" : "541 Orchard Road, Liat Towers, #14-02",
+				"POSTALCODE" : "238881",
+				"CONTACTNODESVAXTYPE" : "67362322Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "721202D98B25AB54",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8975129491116, 1.3692041855083967 ]
+			},
+			"properties" : {
+				"OBJECTID" : 148,
+				"NAME" : "Norwood Medical (Hougang)",
+				"ADDRESS" : "365B Upper Serangoon Road #01-1066 Hougang Meadow",
+				"POSTALCODE" : "532365",
+				"CONTACTNODESVAXTYPE" : "65924532Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "6B23255E3A91E6D5",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85082999644733, 1.2839611245964824 ]
+			},
+			"properties" : {
+				"OBJECTID" : 149,
+				"NAME" : "Northeast Medical Group (Malacca St)",
+				"ADDRESS" : "22 Malacca Street, RB Capital Building, #13-03",
+				"POSTALCODE" : "48980",
+				"CONTACTNODESVAXTYPE" : "65572770Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "51D1CC3C53E048E0",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89544258546172, 1.3916093592946248 ]
+			},
+			"properties" : {
+				"OBJECTID" : 150,
+				"NAME" : "Northeast Medical Group (Sengkang)",
+				"ADDRESS" : "5 Sengkang Square",
+				"POSTALCODE" : "545062",
+				"CONTACTNODESVAXTYPE" : "68755911Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "CC166F5A868D5E0D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.9532857455118, 1.3432082068804905 ]
+			},
+			"properties" : {
+				"OBJECTID" : 151,
+				"NAME" : "Northeast Medical Group (Simei)",
+				"ADDRESS" : "30 Simei Street 3, Simei MRT Station, #02-01",
+				"POSTALCODE" : "529888",
+				"CONTACTNODESVAXTYPE" : "67838638Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E92D465D0755AC32",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.9449587042453, 1.353547423242533 ]
+			},
+			"properties" : {
+				"OBJECTID" : 152,
+				"NAME" : "Northeast Medical Group (Tampines)",
+				"ADDRESS" : "20 Tampines Central 1, Tampines MRT Station, #01-25",
+				"POSTALCODE" : "529538",
+				"CONTACTNODESVAXTYPE" : "67867848Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "231E11F2DFEB8266",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87987461824456, 1.3915862256137064 ]
+			},
+			"properties" : {
+				"OBJECTID" : 153,
+				"NAME" : "OneCare Medical Clinic (Fernvale)",
+				"ADDRESS" : "417 Fernvale Link, #01-10",
+				"POSTALCODE" : "790417",
+				"CONTACTNODESVAXTYPE" : "69709302Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "15000E02E47324A5",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90707325256126, 1.302641286200122 ]
+			},
+			"properties" : {
+				"OBJECTID" : 154,
+				"NAME" : "OneCare Medical Clinic (Marine Parade)",
+				"ADDRESS" : "81 Marine Parade Central, #01-644",
+				"POSTALCODE" : "440081",
+				"CONTACTNODESVAXTYPE" : "63441620Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "90DC6C62A894E705",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84758941060548, 1.420263331592892 ]
+			},
+			"properties" : {
+				"OBJECTID" : 155,
+				"NAME" : "OneCare Medical Clinic (Yishun)",
+				"ADDRESS" : "431 Yishun Avenue 1, #01-04",
+				"POSTALCODE" : "760431",
+				"CONTACTNODESVAXTYPE" : "63342373Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "C8E9B694726BB40A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90198817400874, 1.406536107205987 ]
+			},
+			"properties" : {
+				"OBJECTID" : 156,
+				"NAME" : "OneDoctors Family Clinic (Punggol)",
+				"ADDRESS" : "83 Punggol Central, Waterway Point, #02-17",
+				"POSTALCODE" : "828761",
+				"CONTACTNODESVAXTYPE" : "63858018Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "92251D9674F6DA16",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84264417079032, 1.3711396803691356 ]
+			},
+			"properties" : {
+				"OBJECTID" : 157,
+				"NAME" : "Pancare Medical Clinic",
+				"ADDRESS" : "133 Ang Mo Kio Avenue 3, #01-1651",
+				"POSTALCODE" : "560133",
+				"CONTACTNODESVAXTYPE" : "62583186Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "12CBA733417AF463",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84944198141238, 1.3006510228753758 ]
+			},
+			"properties" : {
+				"OBJECTID" : 158,
+				"NAME" : "Parklane Medical Centre",
+				"ADDRESS" : "35 Selegie Road, Parklane Shopping Mall, #02-25A",
+				"POSTALCODE" : "188307",
+				"CONTACTNODESVAXTYPE" : "63346778Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "D9CE29B1B09A7A30",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88507992783312, 1.3594966428273796 ]
+			},
+			"properties" : {
+				"OBJECTID" : 159,
+				"NAME" : "Parkway Shenton Medical Group (Kovan)",
+				"ADDRESS" : "205 Hougang Street 21, Heartland Mall, #03-20",
+				"POSTALCODE" : "530205",
+				"CONTACTNODESVAXTYPE" : "68449630Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "432E0EC75E44DA58",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.957951732521, 1.3689328868364354 ]
+			},
+			"properties" : {
+				"OBJECTID" : 160,
+				"NAME" : "Pasir Ris Clinic & Surgery Pte Ltd",
+				"ADDRESS" : "442 Pasir Ris Drive 6, #01-28",
+				"POSTALCODE" : "510442",
+				"CONTACTNODESVAXTYPE" : "65820502Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "468954F09C9A8BF7",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.86913598289141, 1.3873953800114638 ]
+			},
+			"properties" : {
+				"OBJECTID" : 161,
+				"NAME" : "Phoenix Medical Group",
+				"ADDRESS" : "1 Seletar Rd, Greenwich V, #02-11",
+				"POSTALCODE" : "807011",
+				"CONTACTNODESVAXTYPE" : "65553512Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "64497E1E3D4BA2F6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.69771554319723, 1.3454530480224094 ]
+			},
+			"properties" : {
+				"OBJECTID" : 162,
+				"NAME" : "Pier Medical Centre",
+				"ADDRESS" : "725 Jurong West Ave 5, #B1-164",
+				"POSTALCODE" : "640725",
+				"CONTACTNODESVAXTYPE" : "67915677Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "4071FF82B79A9204",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89679789107767, 1.397554333979699 ]
+			},
+			"properties" : {
+				"OBJECTID" : 163,
+				"NAME" : "Pinnacle Family Clinic (Compassvale)",
+				"ADDRESS" : "289C Compassvale Cres, #01-04",
+				"POSTALCODE" : "543289",
+				"CONTACTNODESVAXTYPE" : "63861089Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "AD813F20866EA217",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84239903163211, 1.2942051745275471 ]
+			},
+			"properties" : {
+				"OBJECTID" : 164,
+				"NAME" : "Pinnacle Family Clinic (River Valley)",
+				"ADDRESS" : "240 River Valley Road",
+				"POSTALCODE" : "238297",
+				"CONTACTNODESVAXTYPE" : "68366986Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "3FBD7ECED5C917E2",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.77309681898507, 1.3772754474253155 ]
+			},
+			"properties" : {
+				"OBJECTID" : 165,
+				"NAME" : "Prohealth 24-Hour Medical Clinic @BP Ring Rd",
+				"ADDRESS" : "259 Bukit Panjang Ring Road, #01-18",
+				"POSTALCODE" : "671259",
+				"CONTACTNODESVAXTYPE" : "67652115Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "CE7037219DFDBE56",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90362380515772, 1.3779150510093026 ]
+			},
+			"properties" : {
+				"OBJECTID" : 166,
+				"NAME" : "ProHealth Medical Group @Hougang",
+				"ADDRESS" : "476D Upper Serangoon View, #02-04",
+				"POSTALCODE" : "537476",
+				"CONTACTNODESVAXTYPE" : "63847662Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "30C4DE7D22CEE64B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93717394766115, 1.3646364610774606 ]
+			},
+			"properties" : {
+				"OBJECTID" : 167,
+				"NAME" : "ProHealth Medical Group @Tampines",
+				"ADDRESS" : "610 Tampines North Drive 1, Tampines GreenWeave, #01-03",
+				"POSTALCODE" : "520610",
+				"CONTACTNODESVAXTYPE" : "69707114Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "0A83CA256C0721B8",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.74112700855368, 1.355941708642091 ]
+			},
+			"properties" : {
+				"OBJECTID" : 168,
+				"NAME" : "Prohealth Medical Group @Bukit Batok",
+				"ADDRESS" : "4 Bukit Batok Street 41 #01-76 Le Quest",
+				"POSTALCODE" : "657991",
+				"CONTACTNODESVAXTYPE" : "69708330Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "2057DE96C6082FA8",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89371348810788, 1.3829049567980216 ]
+			},
+			"properties" : {
+				"OBJECTID" : 169,
+				"NAME" : "Prohealth Medical Group @Buangkok",
+				"ADDRESS" : "275D Compassvale Link #01-1(12)",
+				"POSTALCODE" : "544275",
+				"CONTACTNODESVAXTYPE" : "64818066Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "63D6A25CB6525B4B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89750136671205, 1.4112470339732368 ]
+			},
+			"properties" : {
+				"OBJECTID" : 170,
+				"NAME" : "Punggol Family Clinic Pte Ltd",
+				"ADDRESS" : "322 Sumang Walk, #01-03",
+				"POSTALCODE" : "820322",
+				"CONTACTNODESVAXTYPE" : "63439989Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "C5FCB68D3178C863",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.78322115203818, 1.31692785875039 ]
+			},
+			"properties" : {
+				"OBJECTID" : 171,
+				"NAME" : "Providentia Medical",
+				"ADDRESS" : "24 Holland Grove Road #01-09/10 ParkSuites",
+				"POSTALCODE" : "278803",
+				"CONTACTNODESVAXTYPE" : "63390010Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "F8A779ECEBF03630",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.79610520953564, 1.3105297739061883 ]
+			},
+			"properties" : {
+				"OBJECTID" : 172,
+				"NAME" : "Raffles Medical Clinic @Holland Village",
+				"ADDRESS" : "118 Holland Avenue, #05-02/03/04",
+				"POSTALCODE" : "278997",
+				"CONTACTNODESVAXTYPE" : "62501411Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "B553BC7433AB6104",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85276833238656, 1.2937602787541802 ]
+			},
+			"properties" : {
+				"OBJECTID" : 173,
+				"NAME" : "Raffles Medical Clinic @Raffles City Shopping Centre",
+				"ADDRESS" : "252 North Bridge Road, Raffles City Shopping Centre, #02-17",
+				"POSTALCODE" : "179103",
+				"CONTACTNODESVAXTYPE" : "63396911Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "F7358B2C784A719E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85681290234783, 1.301255712483561 ]
+			},
+			"properties" : {
+				"OBJECTID" : 174,
+				"NAME" : "Raffles Medical Clinic @Raffles Hospital",
+				"ADDRESS" : "585 North Bridge Road, Level 2 Raffles Hospital",
+				"POSTALCODE" : "188770",
+				"CONTACTNODESVAXTYPE" : "63112233Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "35E8EE0B334BB238",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90889227376671, 1.390452727690652 ]
+			},
+			"properties" : {
+				"OBJECTID" : 175,
+				"NAME" : "RCMC Rivervale Crescent Medical Centre",
+				"ADDRESS" : "182A Rivervale Crescent, #01-04",
+				"POSTALCODE" : "541182",
+				"CONTACTNODESVAXTYPE" : "68860772Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "D6FF0FB75F36E32E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84227691104101, 1.4337728032514478 ]
+			},
+			"properties" : {
+				"OBJECTID" : 176,
+				"NAME" : "Royal Care Medical Clinic @Yishun Junction 9",
+				"ADDRESS" : "317 Yishun Avenue 9, HDB Multi-Storey Carpark, #01-03",
+				"POSTALCODE" : "760317",
+				"CONTACTNODESVAXTYPE" : "67107338Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "138767496315F24B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.92131006151766, 1.3277818846312845 ]
+			},
+			"properties" : {
+				"OBJECTID" : 177,
+				"NAME" : "SATA CommHealth @Bedok Medical Centre",
+				"ADDRESS" : "351 Chai Chee Street, SATA CommHealth Building",
+				"POSTALCODE" : "468982",
+				"CONTACTNODESVAXTYPE" : "62446688Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "46F4C17208CE832E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.73937138996443, 1.3337534319903608 ]
+			},
+			"properties" : {
+				"OBJECTID" : 178,
+				"NAME" : "SATA CommHealth @Jurong Medical Centre",
+				"ADDRESS" : "135 Jurong Gateway Road, #04-345",
+				"POSTALCODE" : "600135",
+				"CONTACTNODESVAXTYPE" : "62446688Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "7154D9F72BAEE9FF",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.78661962197066, 1.435077885837755 ]
+			},
+			"properties" : {
+				"OBJECTID" : 179,
+				"NAME" : "SATA CommHealth @Woodlands Medical Centre",
+				"ADDRESS" : "900 South Woodlands Drive, Civic Centre, #04-01",
+				"POSTALCODE" : "730900",
+				"CONTACTNODESVAXTYPE" : "62446688Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "A48687764147D4F2",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87320768004845, 1.392466322606101 ]
+			},
+			"properties" : {
+				"OBJECTID" : 180,
+				"NAME" : "SATA CommHealth Community Hub @Jalan Kayu",
+				"ADDRESS" : "447B Jalan Kayu, #01-01",
+				"POSTALCODE" : "792447",
+				"CONTACTNODESVAXTYPE" : "62446688Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "0C16DA1AB068304D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89304998226348, 1.383694163045714 ]
+			},
+			"properties" : {
+				"OBJECTID" : 181,
+				"NAME" : "Shenton Medical Group (Buangkok)",
+				"ADDRESS" : "10 Sengkang Central, Buangkok NEL MRT Station, #01-04",
+				"POSTALCODE" : "545061",
+				"CONTACTNODESVAXTYPE" : "63153671Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "83863B0F7CE754E4",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.92488390246562, 1.326911366638118 ]
+			},
+			"properties" : {
+				"OBJECTID" : 182,
+				"NAME" : "SM Haneefa Clinic",
+				"ADDRESS" : "11 Chai Chee Road, #01-23",
+				"POSTALCODE" : "460011",
+				"CONTACTNODESVAXTYPE" : "62434237Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "751F9EFE29D14D76",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.80285695678471, 1.292254666275557 ]
+			},
+			"properties" : {
+				"OBJECTID" : 183,
+				"NAME" : "Soong Clinic & Surgery",
+				"ADDRESS" : "162 Mei Ling Street, #01-353",
+				"POSTALCODE" : "140162",
+				"CONTACTNODESVAXTYPE" : "64755930Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "B2B91AB4A56E1847",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89484777543163, 1.365669933424333 ]
+			},
+			"properties" : {
+				"OBJECTID" : 184,
+				"NAME" : "STAT Medical Clinic @ Hougang",
+				"ADDRESS" : "311 Hougang Avenue 5, #01-183",
+				"POSTALCODE" : "530311",
+				"CONTACTNODESVAXTYPE" : "62827254Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E87703A280F5AF6D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.82873986492561, 1.446081873205143 ]
+			},
+			"properties" : {
+				"OBJECTID" : 185,
+				"NAME" : "T Medical Clinic (Canberra)",
+				"ADDRESS" : "115 Canberra Walk, #01-05",
+				"POSTALCODE" : "750115",
+				"CONTACTNODESVAXTYPE" : "69097550Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "4334FDCA9C0A58BD",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.872491879522, 1.3126401394536016 ]
+			},
+			"properties" : {
+				"OBJECTID" : 186,
+				"NAME" : "T Medical Clinic (Kallang)",
+				"ADDRESS" : "5 Upper Boon Keng Road, #01-14",
+				"POSTALCODE" : "380005",
+				"CONTACTNODESVAXTYPE" : "69700882Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "16657139543A66C3",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84953992834879, 1.3485245212104418 ]
+			},
+			"properties" : {
+				"OBJECTID" : 187,
+				"NAME" : "T P Sim Family Clinic & Surgery",
+				"ADDRESS" : "509 Bishan Street 11, #01-378",
+				"POSTALCODE" : "570509",
+				"CONTACTNODESVAXTYPE" : "63538010Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "698AD090792BE79C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93968359444563, 1.3534961547181348 ]
+			},
+			"properties" : {
+				"OBJECTID" : 188,
+				"NAME" : "Tampines Family Medicine Clinic",
+				"ADDRESS" : "1 Tampines Walk, Our Tampines Hub, #03-34",
+				"POSTALCODE" : "528523",
+				"CONTACTNODESVAXTYPE" : "67026022Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "C57C470AC4FA5E81",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.71704837360402, 1.3476718930827303 ]
+			},
+			"properties" : {
+				"OBJECTID" : 189,
+				"NAME" : "TC Family Clinic Pte. Ltd.",
+				"ADDRESS" : "526 Jurong West Street 52, #01-325",
+				"POSTALCODE" : "640526",
+				"CONTACTNODESVAXTYPE" : "65666687Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "F8536A04287B3B5C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87262037620752, 1.3368631148831738 ]
+			},
+			"properties" : {
+				"OBJECTID" : 190,
+				"NAME" : "The Bidadari Clinic",
+				"ADDRESS" : "115B Alkaff Crescent #01-11",
+				"POSTALCODE" : "342115",
+				"CONTACTNODESVAXTYPE" : "65183868Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "0EE050441540EEF9",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84966456259855, 1.284877764037937 ]
+			},
+			"properties" : {
+				"OBJECTID" : 191,
+				"NAME" : "The Medical Clinic Pte Ltd",
+				"ADDRESS" : "63 Chulia Street, OCBC Centre East, #01-02",
+				"POSTALCODE" : "49514",
+				"CONTACTNODESVAXTYPE" : "65355151Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "42539800163931A8",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90126239612907, 1.4023030097768232 ]
+			},
+			"properties" : {
+				"OBJECTID" : 192,
+				"NAME" : "Trinity Medical (Punggol)",
+				"ADDRESS" : "273C Punggol Place, #01-874",
+				"POSTALCODE" : "823273",
+				"CONTACTNODESVAXTYPE" : "66948238Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "8C8A2A967FCABE09",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.839283939962, 1.3674945794463191 ]
+			},
+			"properties" : {
+				"OBJECTID" : 193,
+				"NAME" : "Trucare Medical & Surgery (AMK)",
+				"ADDRESS" : "226A Ang Mo Kio Avenue 1, Kebun Baru Mall, #01-631",
+				"POSTALCODE" : "561226",
+				"CONTACTNODESVAXTYPE" : "62558849Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "8C8950A5DD3762BA",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83700509087879, 1.4177040890634183 ]
+			},
+			"properties" : {
+				"OBJECTID" : 194,
+				"NAME" : "United Health Family Clinic & Surgery",
+				"ADDRESS" : "627 Yishun Street 61, #01-63",
+				"POSTALCODE" : "760627",
+				"CONTACTNODESVAXTYPE" : "62571182Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "9A50E930826B1843",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.73937138996443, 1.3337534319903608 ]
+			},
+			"properties" : {
+				"OBJECTID" : 195,
+				"NAME" : "Unihealth 24-HR Clinic (Jurong East)",
+				"ADDRESS" : "135 Jurong Gateway Road #01-317",
+				"POSTALCODE" : "600135",
+				"CONTACTNODESVAXTYPE" : "69705868Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "7154D9F7BA59808C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83034537007325, 1.4434954400273268 ]
+			},
+			"properties" : {
+				"OBJECTID" : 196,
+				"NAME" : "Viva Medical Group (Canberra Plaza)",
+				"ADDRESS" : "133 Canberra View, Canberra Plaza, #02-14",
+				"POSTALCODE" : "750133",
+				"CONTACTNODESVAXTYPE" : "69803368Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "71F92C032D2A7637",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.92395109497791, 1.3317110153995604 ]
+			},
+			"properties" : {
+				"OBJECTID" : 197,
+				"NAME" : "Yang & Yap Clinic & Surgery",
+				"ADDRESS" : "537 Bedok North Street 3, #01-571",
+				"POSTALCODE" : "460537",
+				"CONTACTNODESVAXTYPE" : "64499946Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "8804F4FAD71A30B7",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.75745126450546, 1.3164132090315892 ]
+			},
+			"properties" : {
+				"OBJECTID" : 198,
+				"NAME" : "Yarra Medical Clinic",
+				"ADDRESS" : "1 West Coast Drive, NeWest, #01-11",
+				"POSTALCODE" : "128020",
+				"CONTACTNODESVAXTYPE" : "62643703Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "D20660F18D48A6C6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.82878987101009, 1.2863657794493828 ]
+			},
+			"properties" : {
+				"OBJECTID" : 199,
+				"NAME" : "Yim Clinic",
+				"ADDRESS" : "11A Boon Tiong Road, #02-03/04/05",
+				"POSTALCODE" : "161011",
+				"CONTACTNODESVAXTYPE" : "62707587Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "7216278E6E1394A1",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.96104151276327, 1.3531647984406763 ]
+			},
+			"properties" : {
+				"OBJECTID" : 200,
+				"NAME" : "Yoong Family Clinic & Surgery",
+				"ADDRESS" : "333 Tampines Street 32, #01-536",
+				"POSTALCODE" : "520333",
+				"CONTACTNODESVAXTYPE" : "67826167Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "4CB70A8EAF0EC25F",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84474863974096, 1.3589190705004899 ]
+			},
+			"properties" : {
+				"OBJECTID" : 201,
+				"NAME" : "1 Bishan Medical Clinic",
+				"ADDRESS" : "283 Bishan Street 22, #01-191",
+				"POSTALCODE" : "570283",
+				"CONTACTNODESVAXTYPE" : "64561600Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (5yrs to 11yrs), Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "78C2D9D30E38E25A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.86914776137168, 1.3235378046621074 ]
+			},
+			"properties" : {
+				"OBJECTID" : 202,
+				"NAME" : "57 Medical Clinic (Geylang Bahru)",
+				"ADDRESS" : "57 Geylang Bahru, #01-3505",
+				"POSTALCODE" : "330057",
+				"CONTACTNODESVAXTYPE" : "66947078Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "07C364EF948DBCE2",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84389213140564, 1.3204296614524813 ]
+			},
+			"properties" : {
+				"OBJECTID" : 203,
+				"NAME" : "A Life Clinic Pte Ltd",
+				"ADDRESS" : "10 Sinaran Drive, Novena Medical Center, #09-21",
+				"POSTALCODE" : "307506",
+				"CONTACTNODESVAXTYPE" : "67372283Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "33A0A29516C6F9DF",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.79569235552093, 1.3308174008742475 ]
+			},
+			"properties" : {
+				"OBJECTID" : 204,
+				"NAME" : "Advantage Medical Clinic",
+				"ADDRESS" : "1 Fifth Ave, Guthrie House 03-12",
+				"POSTALCODE" : "268802",
+				"CONTACTNODESVAXTYPE" : "64671344Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "BC7CA396436C651A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83437215393448, 1.4460226490555343 ]
+			},
+			"properties" : {
+				"OBJECTID" : 205,
+				"NAME" : "BestMed Family Clinic & Homecare",
+				"ADDRESS" : "126 Canberra Street, Multistorey Park, #01-04",
+				"POSTALCODE" : "750126",
+				"CONTACTNODESVAXTYPE" : "65184268Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "894F078967427AC0",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84462730723526, 1.338648767072492 ]
+			},
+			"properties" : {
+				"OBJECTID" : 206,
+				"NAME" : "Braddell Medical Clinic",
+				"ADDRESS" : "124 Lorong 1 Toa Payoh, #01-489",
+				"POSTALCODE" : "310124",
+				"CONTACTNODESVAXTYPE" : "62536288Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "DC68E8255DB4623A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93294809581317, 1.3249645712934346 ]
+			},
+			"properties" : {
+				"OBJECTID" : 207,
+				"NAME" : "Central 24-Hr Clinic (Bedok)",
+				"ADDRESS" : "219 Bedok Central, #01-124",
+				"POSTALCODE" : "460219",
+				"CONTACTNODESVAXTYPE" : "62476122Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "BD8E442B9B407BAD",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.6907217340388, 1.3414812265659581 ]
+			},
+			"properties" : {
+				"OBJECTID" : 208,
+				"NAME" : "Central 24-HR Clinic (Pioneer North)",
+				"ADDRESS" : "959 Jurong West Street 92, #01-160",
+				"POSTALCODE" : "640959",
+				"CONTACTNODESVAXTYPE" : "62512775Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "06DB1F162CCD61E0",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.79811977149097, 1.4457507751156147 ]
+			},
+			"properties" : {
+				"OBJECTID" : 209,
+				"NAME" : "Central 24-Hr Clinic (Woodlands)",
+				"ADDRESS" : "768 Woodlands Avenue 6, #02-06A",
+				"POSTALCODE" : "730768",
+				"CONTACTNODESVAXTYPE" : "63654895Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "81E22472300660E8",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.82792040258711, 1.4299550154668041 ]
+			},
+			"properties" : {
+				"OBJECTID" : 210,
+				"NAME" : "Central 24-Hr Clinic (Yishun)",
+				"ADDRESS" : "701A Yishun Ave 5, #01-04",
+				"POSTALCODE" : "761701",
+				"CONTACTNODESVAXTYPE" : "67597985Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "FD9728418361F913",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8089633493539, 1.2866218964825433 ]
+			},
+			"properties" : {
+				"OBJECTID" : 211,
+				"NAME" : "Central Medical Group Pte Ltd",
+				"ADDRESS" : "11 Jalan Bukit Merah, #01-4442",
+				"POSTALCODE" : "150011",
+				"CONTACTNODESVAXTYPE" : "62722212Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "DB2A0E543C738530",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.7205363924925, 1.3271872330961463 ]
+			},
+			"properties" : {
+				"OBJECTID" : 212,
+				"NAME" : "Doctors Koo, Loh & Associates",
+				"ADDRESS" : "152 Yung Ho Road, #B1-03",
+				"POSTALCODE" : "610152",
+				"CONTACTNODESVAXTYPE" : "62665939Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "9F92EA8E59A7DF8D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.78740406092639, 1.299294055730761 ]
+			},
+			"properties" : {
+				"OBJECTID" : 213,
+				"NAME" : "Dover Medical Centre",
+				"ADDRESS" : "1 Fusionopolis Way,Connexis, #03-05",
+				"POSTALCODE" : "138632",
+				"CONTACTNODESVAXTYPE" : "67756266Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "FD95546EB50F17A6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.70646088413002, 1.339830152579402 ]
+			},
+			"properties" : {
+				"OBJECTID" : 214,
+				"NAME" : "Dr. W.K. Koo & Associates P.L.",
+				"ADDRESS" : "1 Jurong West Central 2, Jurong Point Shopping Center, #01-16A/B",
+				"POSTALCODE" : "648886",
+				"CONTACTNODESVAXTYPE" : "67922669Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "FCA5451CA116039B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90910656522573, 1.3935098088510418 ]
+			},
+			"properties" : {
+				"OBJECTID" : 215,
+				"NAME" : "Edgedale Medical Clinic",
+				"ADDRESS" : "122A Edgedale Plains, #01-187",
+				"POSTALCODE" : "821122",
+				"CONTACTNODESVAXTYPE" : "66352272Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "8156ED12B02FCB91",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87720231853459, 1.3947504744016908 ]
+			},
+			"properties" : {
+				"OBJECTID" : 216,
+				"NAME" : "Etern Medical Clinic (Fernvale Palms)",
+				"ADDRESS" : "432A Sengkang West Way, Fernvale Palms, #01-03",
+				"POSTALCODE" : "791432",
+				"CONTACTNODESVAXTYPE" : "66047224Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "526CAAF624296374",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.9212157482911, 1.337286446293303 ]
+			},
+			"properties" : {
+				"OBJECTID" : 217,
+				"NAME" : "Faith Clinic (Bedok)",
+				"ADDRESS" : "746 Bedok Reservoir Road,#01-3013",
+				"POSTALCODE" : "470746",
+				"CONTACTNODESVAXTYPE" : "67020820Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "A9BF5CC62BDBBF21",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.91527548309648, 1.3062474958605423 ]
+			},
+			"properties" : {
+				"OBJECTID" : 218,
+				"NAME" : "Faith Family Clinic",
+				"ADDRESS" : "57 Marine Terrance, #01-113",
+				"POSTALCODE" : "440057",
+				"CONTACTNODESVAXTYPE" : "64466326Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "3EB191DA4280315D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.9347342250218, 1.320625039917057 ]
+			},
+			"properties" : {
+				"OBJECTID" : 219,
+				"NAME" : "HeartlandHealth (Bedok South)",
+				"ADDRESS" : "18 Bedok South Road, #01-69",
+				"POSTALCODE" : "460018",
+				"CONTACTNODESVAXTYPE" : "62418812Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "9851104772D653DE",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.74283171748613, 1.347716967293192 ]
+			},
+			"properties" : {
+				"OBJECTID" : 220,
+				"NAME" : "HeartlandHealth (Bukit Batok)",
+				"ADDRESS" : "164 Bukit Batok Street 11, #01-152",
+				"POSTALCODE" : "650164",
+				"CONTACTNODESVAXTYPE" : "68732458Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "E8C174E768086D0C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.95990645157045, 1.3543698123979089 ]
+			},
+			"properties" : {
+				"OBJECTID" : 221,
+				"NAME" : "Kai Medical Clinic",
+				"ADDRESS" : "5 Tampines Street 32, Tampines Mart, #02-05",
+				"POSTALCODE" : "529284",
+				"CONTACTNODESVAXTYPE" : "67891112Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "0DBF2C91773F2DB4",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90155802756351, 1.3849320203292892 ]
+			},
+			"properties" : {
+				"OBJECTID" : 222,
+				"NAME" : "Lifeline Medical Group",
+				"ADDRESS" : "118 Rivervale Drive, Rivervale Plaza, #, #02-18",
+				"POSTALCODE" : "540118",
+				"CONTACTNODESVAXTYPE" : "68812392Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "95D6C59876CA74B6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84321926277406, 1.3205715626663368 ]
+			},
+			"properties" : {
+				"OBJECTID" : 223,
+				"NAME" : "Lily Neo Clinic Pte Ltd",
+				"ADDRESS" : "101 Irrawaddy Road, Royal Square Medical Centre, #21-09",
+				"POSTALCODE" : "329565",
+				"CONTACTNODESVAXTYPE" : "64726226Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "B48DBBBBB7AF6690",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84620246656864, 1.341237270188875 ]
+			},
+			"properties" : {
+				"OBJECTID" : 224,
+				"NAME" : "Lim Clinic & Surgery",
+				"ADDRESS" : "109 Lorong 1 Toa Payoh, #01-312",
+				"POSTALCODE" : "310109",
+				"CONTACTNODESVAXTYPE" : "62527473Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "083C7205FFEFB9F6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93961398611494, 1.3463917227211903 ]
+			},
+			"properties" : {
+				"OBJECTID" : 225,
+				"NAME" : "Little Cross Family Clinic",
+				"ADDRESS" : "929 Tampines Street 91, #01-445",
+				"POSTALCODE" : "520929",
+				"CONTACTNODESVAXTYPE" : "65440040Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "11E2A74CAADAE79E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83101455509833, 1.2833261116113128 ]
+			},
+			"properties" : {
+				"OBJECTID" : 226,
+				"NAME" : "Marina Medical Centre (Tiong Bahru)",
+				"ADDRESS" : "78 Guan Chuan Street, #01-39",
+				"POSTALCODE" : "160078",
+				"CONTACTNODESVAXTYPE" : "62222177Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "1A4A2FDD2B3B14B9",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87262037620752, 1.3368631148831738 ]
+			},
+			"properties" : {
+				"OBJECTID" : 227,
+				"NAME" : "Our Woodleigh Family Clinic",
+				"ADDRESS" : "115B Alkaff Crescent, #01-05",
+				"POSTALCODE" : "342115",
+				"CONTACTNODESVAXTYPE" : "69700560Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "0EE05044635142FB",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.81571157882603, 1.288464760342085 ]
+			},
+			"properties" : {
+				"OBJECTID" : 228,
+				"NAME" : "Pacific Family Clinic",
+				"ADDRESS" : "75D Redhill Road, #01-116",
+				"POSTALCODE" : "154075",
+				"CONTACTNODESVAXTYPE" : "64740343Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "0F64C70611FD8607",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83524031012566, 1.3037232137246697 ]
+			},
+			"properties" : {
+				"OBJECTID" : 229,
+				"NAME" : "Precious Medical Centre Pte Ltd",
+				"ADDRESS" : "290 Orchard Road, The Paragon, #12-01",
+				"POSTALCODE" : "238859",
+				"CONTACTNODESVAXTYPE" : "67088000Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "B22AF3F289189605",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84073565741942, 1.3795572751673304 ]
+			},
+			"properties" : {
+				"OBJECTID" : 230,
+				"NAME" : "Premier Clinic and Surgery",
+				"ADDRESS" : "631 Ang Mo Kio Avenue 4, #01-936",
+				"POSTALCODE" : "560631",
+				"CONTACTNODESVAXTYPE" : "64562982Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "14150F29E27DD6D6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.72026802423285, 1.3350420214079959 ]
+			},
+			"properties" : {
+				"OBJECTID" : 231,
+				"NAME" : "Pro Health Medical Group @Taman Jurong",
+				"ADDRESS" : "399 Yung Sheng Road, Taman Jurong Shopping Centre, #01-56",
+				"POSTALCODE" : "610399",
+				"CONTACTNODESVAXTYPE" : "62682628Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "2E94B2D01C962030",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.769543946852, 1.3440433691544376 ]
+			},
+			"properties" : {
+				"OBJECTID" : 232,
+				"NAME" : "Providence Clinic @Hillford",
+				"ADDRESS" : "182 Jalan Jurong Kechil, The Hillford, #01-65",
+				"POSTALCODE" : "596152",
+				"CONTACTNODESVAXTYPE" : "63140970Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "0B8B2E88EA9F4D7C",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84288917091045, 1.3178291939196747 ]
+			},
+			"properties" : {
+				"OBJECTID" : 233,
+				"NAME" : "Providence Clinic @Novena",
+				"ADDRESS" : "1 Goldhill Plaza, #01-29",
+				"POSTALCODE" : "308899",
+				"CONTACTNODESVAXTYPE" : "62550063Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "0AC75718BD04813E",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.74004122868924, 1.3347221438237673 ]
+			},
+			"properties" : {
+				"OBJECTID" : 234,
+				"NAME" : "Raffles Medical (Jurong Gateway - only accessible via stairs)",
+				"ADDRESS" : "131 Jurong Gateway Road, #01-267",
+				"POSTALCODE" : "600131",
+				"CONTACTNODESVAXTYPE" : "68996688Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "E7EE9D4FA9C87274",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84590540426872, 1.3709732985222445 ]
+			},
+			"properties" : {
+				"OBJECTID" : 235,
+				"NAME" : "SATA CommHealth @Ang Mo Kio Medical Centre",
+				"ADDRESS" : "715 Ang Mo Kio Avenue 6, #01-4008 & 4010",
+				"POSTALCODE" : "560715",
+				"CONTACTNODESVAXTYPE" : "62446688Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "C492F5CB80D4735D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.77296076954796, 1.3399973148750066 ]
+			},
+			"properties" : {
+				"OBJECTID" : 236,
+				"NAME" : "Shenton Medical Group (Toh Yi)",
+				"ADDRESS" : "18 Toh Yi Drive, #01-103",
+				"POSTALCODE" : "590018",
+				"CONTACTNODESVAXTYPE" : "62277777Please call clinic for vaccination operating hours Sinovac/CoronaVac (18yrs & above)",
+				"INC_CRC" : "5340492B438B5DB1",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.86118860801476, 1.3081174839048402 ]
+			},
+			"properties" : {
+				"OBJECTID" : 237,
+				"NAME" : "Healthway Medical (King George)",
+				"ADDRESS" : "803 KING GEORGE'S AVENUE #01-144",
+				"POSTALCODE" : "200803",
+				"CONTACTNODESVAXTYPE" : "62939883Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "7FC290B7BB58EADB",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.79525286939119, 1.436570769475558 ]
+			},
+			"properties" : {
+				"OBJECTID" : 102,
+				"NAME" : "Frontier Medical Associates @Woodlands",
+				"ADDRESS" : "899C, Woodlands Drive 50, #01-296",
+				"POSTALCODE" : "732899",
+				"CONTACTNODESVAXTYPE" : "63663631Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "1D4EBCC42CB1E112",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84041032266575, 1.4230534568265314 ]
+			},
+			"properties" : {
+				"OBJECTID" : 103,
+				"NAME" : "Frontier Medical Associates @Yishun",
+				"ADDRESS" : "654 Yishun Avenue 4, #01-437",
+				"POSTALCODE" : "760654",
+				"CONTACTNODESVAXTYPE" : "67587536Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "7679A892A7C12C08",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93734335801608, 1.3291986781920446 ]
+			},
+			"properties" : {
+				"OBJECTID" : 104,
+				"NAME" : "Frontier People's Clinic @Bedok",
+				"ADDRESS" : "123 Bedok North Street 2, #01-152",
+				"POSTALCODE" : "460123",
+				"CONTACTNODESVAXTYPE" : "64430261Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "B779D37DF5B37D4A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.94534429381858, 1.3452814407162408 ]
+			},
+			"properties" : {
+				"OBJECTID" : 105,
+				"NAME" : "Greenhealth Family Clinic",
+				"ADDRESS" : "138 Tampines Street 11 #01-142",
+				"POSTALCODE" : "521138",
+				"CONTACTNODESVAXTYPE" : "65924458Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "B9F4FE4C1DD6B11D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87989847778326, 1.33372865661824 ]
+			},
+			"properties" : {
+				"OBJECTID" : 106,
+				"NAME" : "Health Link Medical Clinic & Surgery",
+				"ADDRESS" : "5 Upper Aljunied Lane, #01-46",
+				"POSTALCODE" : "360005",
+				"CONTACTNODESVAXTYPE" : "62890885Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "401D54A8AA8C666B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83360403945593, 1.36287032065941 ]
+			},
+			"properties" : {
+				"OBJECTID" : 107,
+				"NAME" : "Healthcare Family Clinic & Surgery",
+				"ADDRESS" : "403 Sin Ming Avenue, #01-311",
+				"POSTALCODE" : "570403",
+				"CONTACTNODESVAXTYPE" : "64542373Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "5F1FE8D05B8494D6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85319966643314, 1.3221334243191154 ]
+			},
+			"properties" : {
+				"OBJECTID" : 108,
+				"NAME" : "Healthify Medical Family Clinic",
+				"ADDRESS" : "262 Balestier Road, OKIO, #01-04",
+				"POSTALCODE" : "329714",
+				"CONTACTNODESVAXTYPE" : "69779773Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "570F08DFE4510885",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.69702008581982, 1.3415910797964574 ]
+			},
+			"properties" : {
+				"OBJECTID" : 109,
+				"NAME" : "Healthmark Pioneer Mall Clinic",
+				"ADDRESS" : "638 Jurong West Street 61, Pioneer Mall, #02-08",
+				"POSTALCODE" : "640638",
+				"CONTACTNODESVAXTYPE" : "68613100Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "462AE25AEF624E3A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84874827708485, 1.3636167098197944 ]
+			},
+			"properties" : {
+				"OBJECTID" : 110,
+				"NAME" : "Healthpath Medical Clinic & Surgery",
+				"ADDRESS" : "338 Ang Mo Kio Ave 1, #01-1651",
+				"POSTALCODE" : "560338",
+				"CONTACTNODESVAXTYPE" : "64832556Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "D5DB05A7799101E6",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.80893480745452, 1.2733825128153389 ]
+			},
+			"properties" : {
+				"OBJECTID" : 111,
+				"NAME" : "Healthplus Family Clinic & Surgery",
+				"ADDRESS" : "78A Telok Blangah Street 32, #01-02",
+				"POSTALCODE" : "101078",
+				"CONTACTNODESVAXTYPE" : "62733327Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E29A08E0BFA1E4B2",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.87043057712192, 1.334006988368796 ]
+			},
+			"properties" : {
+				"OBJECTID" : 112,
+				"NAME" : "Healthsprings Medical & Laser Clinic (Bidadari/Woodleigh)",
+				"ADDRESS" : "105A Bidadari Park Drive, #01-09",
+				"POSTALCODE" : "341105",
+				"CONTACTNODESVAXTYPE" : "69707933Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "EF1265F5256EE82B",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.76617053201481, 1.3852955652009855 ]
+			},
+			"properties" : {
+				"OBJECTID" : 113,
+				"NAME" : "Healthsprings Medical Clinic (Bukit Panjang)",
+				"ADDRESS" : "524A Jelapang Rd, Greenridge Shopping Centre, #02-01/02",
+				"POSTALCODE" : "671524",
+				"CONTACTNODESVAXTYPE" : "68926681Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "1C4FA0BA5D2BFF37",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8307225857939, 1.3050872212538245 ]
+			},
+			"properties" : {
+				"OBJECTID" : 114,
+				"NAME" : "Healthsprings Medical Clinic (Liat Towers)",
+				"ADDRESS" : "541 Orchard Road, Liat Towers, #10-02",
+				"POSTALCODE" : "238881",
+				"CONTACTNODESVAXTYPE" : "67345260Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "721202D9C2801B8F",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85103069319564, 1.362431863751213 ]
+			},
+			"properties" : {
+				"OBJECTID" : 115,
+				"NAME" : "Healthway Medical (AMK)",
+				"ADDRESS" : "330 Ang Mo Kio Ave 1, #01-1803",
+				"POSTALCODE" : "560330",
+				"CONTACTNODESVAXTYPE" : "65530100Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "40AF388E071FA0DE",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84389213140564, 1.3204296614524813 ]
+			},
+			"properties" : {
+				"OBJECTID" : 116,
+				"NAME" : "Healthway Medical (Novena)",
+				"ADDRESS" : "10 Sinaran Drive, Novena Medical Center, #09-36",
+				"POSTALCODE" : "307506",
+				"CONTACTNODESVAXTYPE" : "63528696Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "33A0A295983B823A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.80881745971011, 1.2739415258705493 ]
+			},
+			"properties" : {
+				"OBJECTID" : 117,
+				"NAME" : "HeartlandHealth (Telok Blangah Drive)",
+				"ADDRESS" : "77 Telok Blangah Drive #01-244",
+				"POSTALCODE" : "100077",
+				"CONTACTNODESVAXTYPE" : "69708422Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "8C00B5ADCD5C068D",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85177840229495, 1.3350133210875927 ]
+			},
+			"properties" : {
+				"OBJECTID" : 118,
+				"NAME" : "HeartlandHealth (Toa Payoh)",
+				"ADDRESS" : "66 Lorong 4 Toa Payoh #01-315 Toa Payoh Vista",
+				"POSTALCODE" : "310066",
+				"CONTACTNODESVAXTYPE" : "62528223Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "A2775A4C4DEE7F15",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.70372531689466, 1.353611772060146 ]
+			},
+			"properties" : {
+				"OBJECTID" : 119,
+				"NAME" : "Hisemainn Medical Clinic",
+				"ADDRESS" : "276 Jurong West Street 25, #01-06",
+				"POSTALCODE" : "640276",
+				"CONTACTNODESVAXTYPE" : "67958990Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "E12D5D9BD1C28F1F",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85464498781606, 1.3627154140066622 ]
+			},
+			"properties" : {
+				"OBJECTID" : 120,
+				"NAME" : "HK Family Clinic & Surgery",
+				"ADDRESS" : "410 Ang Mo Kio Avenue 10, #01-817",
+				"POSTALCODE" : "560410",
+				"CONTACTNODESVAXTYPE" : "65528757Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "77DA633712714FA5",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.9380512875105, 1.3323346744081528 ]
+			},
+			"properties" : {
+				"OBJECTID" : 121,
+				"NAME" : "HL Family Clinic & Surgery (Bedok) Pte. Ltd.",
+				"ADDRESS" : "89 Bedok North Street 4, #01-83",
+				"POSTALCODE" : "460089",
+				"CONTACTNODESVAXTYPE" : "64420494Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "338F64AFB8E4C58A",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88289417930713, 1.3751489782578707 ]
+			},
+			"properties" : {
+				"OBJECTID" : 122,
+				"NAME" : "Hougang Family Medicine Clinic",
+				"ADDRESS" : "51 Hougang Avenue 9, #02-01",
+				"POSTALCODE" : "538776",
+				"CONTACTNODESVAXTYPE" : "63153323Please call clinic for vaccination operating hours Pfizer-BioNTech/Comirnaty Omicron XBB.1.5 (12yrs & above)",
+				"INC_CRC" : "765242D9B5A84401",
+				"FMEL_UPD_D" : "20240202172001"
+			}
+		}
+	]
+}

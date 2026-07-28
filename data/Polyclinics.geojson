@@ -1,0 +1,656 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "CERVICALSCREEN",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.94584946666237, 1.3573099581749626 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1921,
+				"ADDRESSBLOCKHOUSENUMBER" : "1",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "529203",
+				"ADDRESSSTREETNAME" : "Tampines Street 41",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/Pages/shp-tampines.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Tampines Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "836CDAE5168F0131",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.85895644511542, 1.3344802763996426 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1922,
+				"ADDRESSBLOCKHOUSENUMBER" : "2003",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "319260",
+				"ADDRESSSTREETNAME" : "Toa Payoh Lorong 8",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nhgp.com.sg/our-polyclinics/all-polyclinics/Pages/polyclinic-ToaPayoh.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Toa Payoh Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "5F4733090690DA03",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.77521291746736, 1.4308932241216819 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1923,
+				"ADDRESSBLOCKHOUSENUMBER" : "10",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "738579",
+				"ADDRESSSTREETNAME" : "Woodlands Street 31",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nhgp.com.sg/our-polyclinics/all-polyclinics/Pages/polyclinic-woodlands.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Woodlands Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "BC840D25BAE44B3F",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90571066893415, 1.3173277271261974 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1924,
+				"ADDRESSBLOCKHOUSENUMBER" : "1",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "429400",
+				"ADDRESSSTREETNAME" : "Chin Cheng Ave",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/our-polyclinics/Pages/shp-eunos.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Eunos Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "984C61D924D02FDD",
+				"FMEL_UPD_D" : "20250529132647",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.95920469728927, 1.3685869467919396 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1925,
+				"ADDRESSBLOCKHOUSENUMBER" : "1",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : "1",
+				"ADDRESSPOSTALCODE" : "519457",
+				"ADDRESSSTREETNAME" : "Pasir Ris Drive 4",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/Pages/SHP-Pasir-Ris.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Pasir Ris Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "18CE85BA9A5443D3",
+				"FMEL_UPD_D" : "20250529132647",
+				"ADDRESSUNITNUMBER" : "11"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.91319574883552, 1.4028784531949312 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1926,
+				"ADDRESSBLOCKHOUSENUMBER" : "681",
+				"ADDRESSBUILDINGNAME" : "Oasis Terraces",
+				"ADDRESSFLOORNUMBER" : "2",
+				"ADDRESSPOSTALCODE" : "820681",
+				"ADDRESSSTREETNAME" : "Punggol Drive",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/Pages/shp-punggol.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Punggol Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "467A8B20BBBA6C84",
+				"FMEL_UPD_D" : "20250529132647",
+				"ADDRESSUNITNUMBER" : "1"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.82276363764352, 1.4482633618766256 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1927,
+				"ADDRESSBLOCKHOUSENUMBER" : "21",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : "1",
+				"ADDRESSPOSTALCODE" : "756973",
+				"ADDRESSSTREETNAME" : "Canberra Link",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Breast Screening service is available here.",
+				"HYPERLINK" : "https://www.nhgp.com.sg/our-polyclinics/all-polyclinics/Pages/polyclinic-sembawang.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Sembawang Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "87E1198E4588D455",
+				"FMEL_UPD_D" : "20250529132647",
+				"ADDRESSUNITNUMBER" : "3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83434643909712, 1.418250783374553 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1928,
+				"ADDRESSBLOCKHOUSENUMBER" : "690",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "769567",
+				"ADDRESSSTREETNAME" : "Yishun Ring Roadd",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nhgp.com.sg/our-polyclinics/all-polyclinics/Pages/polyclinic-khatib.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Khatib Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "40688B7236BF2AFA",
+				"FMEL_UPD_D" : "20240723143940",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93755631803462, 1.3633110636349612 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1929,
+				"ADDRESSBLOCKHOUSENUMBER" : "35",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "528566",
+				"ADDRESSSTREETNAME" : "Tampines Street 61",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/our-polyclinics/shp-tampines-north",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Tampines North Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "04CFC7A052280CAA",
+				"FMEL_UPD_D" : "20240723143940",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83919070033672, 1.4303585107550705 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1930,
+				"ADDRESSBLOCKHOUSENUMBER" : "2",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "768898",
+				"ADDRESSSTREETNAME" : "Yishun Ave 9",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nhgp.com.sg/our-polyclinics/all-polyclinics/Pages/polyclinic-yishun.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Yishun Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "6A0E6330D1B23E80",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.84560835649081, 1.3743114830439676 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1931,
+				"ADDRESSBLOCKHOUSENUMBER" : "21",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "569666",
+				"ADDRESSSTREETNAME" : "Ang Mo Kio Central 2",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nhgp.com.sg/our-polyclinics/all-polyclinics/Pages/polyclinic-amk.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Ang Mo Kio Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "E0BD8F98D5E0B4DC",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : "4136"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.93164003224786, 1.32594068868991 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1932,
+				"ADDRESSBLOCKHOUSENUMBER" : "212",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : "3",
+				"ADDRESSPOSTALCODE" : "460212",
+				"ADDRESSSTREETNAME" : "Bedok North Street 1",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/Pages/shp-bedok.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Bedok Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "79D5D50A8BB2FC69",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : "147"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.74782227017751, 1.352015174812025 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1933,
+				"ADDRESSBLOCKHOUSENUMBER" : "50",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "659164",
+				"ADDRESSSTREETNAME" : "Bukit Batok West Ave 3",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-bbp.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Bukit Batok Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "6FF488E0CF553AEE",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.81693955318843, 1.2838812078020063 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1934,
+				"ADDRESSBLOCKHOUSENUMBER" : "163",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : "4",
+				"ADDRESSPOSTALCODE" : "150163",
+				"ADDRESSSTREETNAME" : "Bukit Merah Central",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/Pages/shp-bukit-merah.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Bukit Merah Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "41DC2AA6B97B4376",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : "3565"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.76016645293414, 1.3827125369840436 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1935,
+				"ADDRESSBLOCKHOUSENUMBER" : "50",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : "3",
+				"ADDRESSPOSTALCODE" : "677726",
+				"ADDRESSSTREETNAME" : "Woodlands Road",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-bpj.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Bukit Panjang Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "E06B9CFC819F88C6",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : "2"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.75077687240429, 1.3823413857127425 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1936,
+				"ADDRESSBLOCKHOUSENUMBER" : "2",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "688846",
+				"ADDRESSSTREETNAME" : "Teck Whye Crescent",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-cckp.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Choa Chu Kang Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "4BB4062FC85DBF08",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.76547650435839, 1.3124810823684312 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1937,
+				"ADDRESSBLOCKHOUSENUMBER" : "451",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : "2",
+				"ADDRESSPOSTALCODE" : "120451",
+				"ADDRESSSTREETNAME" : "Clementi Avenue 3",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-clemp.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Clementi Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "D5E15CC508F7E2B8",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : "307"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88716604481574, 1.3194936457037207 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1938,
+				"ADDRESSBLOCKHOUSENUMBER" : "21",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "389707",
+				"ADDRESSSTREETNAME" : "Geylang East Central",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nhgp.com.sg/our-polyclinics/all-polyclinics/Pages/polyclinic-geylang.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Geylang Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "BBEB75BF39C666EB",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.88899639048948, 1.3700180468290737 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1939,
+				"ADDRESSBLOCKHOUSENUMBER" : "89",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "538829",
+				"ADDRESSSTREETNAME" : "Hougang Avenue 4",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nhgp.com.sg/our-polyclinics/all-polyclinics/Pages/polyclinic-hougang.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Hougang Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "BA090CA5FC6FE2CB",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.73071787343179, 1.349719789129868 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1940,
+				"ADDRESSBLOCKHOUSENUMBER" : "190",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "609788",
+				"ADDRESSSTREETNAME" : "Jurong East Avenue 1",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-jurp.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Jurong Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "F68BAB3FE4F8BE5E",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.8586873260051, 1.3166930224324112 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1941,
+				"ADDRESSBLOCKHOUSENUMBER" : "701",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "328263",
+				"ADDRESSSTREETNAME" : "Serangoon Road",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nhgp.com.sg/our-polyclinics/all-polyclinics/Pages/polyclinic-kallang.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Kallang Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "7FA6D605379EBC9F",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.90773880031438, 1.3024820188618609 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1942,
+				"ADDRESSBLOCKHOUSENUMBER" : "80",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : "1",
+				"ADDRESSPOSTALCODE" : "440080",
+				"ADDRESSSTREETNAME" : "Marine Parade Central",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/Pages/shp-marineparade.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Marine Parade Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "23FD11A1A2931C12",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : "792"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.83831505402756, 1.2793314591479037 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1943,
+				"ADDRESSBLOCKHOUSENUMBER" : "3",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : "2",
+				"ADDRESSPOSTALCODE" : "168937",
+				"ADDRESSSTREETNAME" : "Health Promotion Board Building",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/Pages/SHP-Outram.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Outram Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "4FCD7B8BBF78426D",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.69897934147608, 1.3385622426293666 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1944,
+				"ADDRESSBLOCKHOUSENUMBER" : "26",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "648201",
+				"ADDRESSSTREETNAME" : "Jurong West Street 61",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-pioneerp.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Pioneer Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "9C1E0B576501F955",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.80095780091568, 1.2984754688995657 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1945,
+				"ADDRESSBLOCKHOUSENUMBER" : "580",
+				"ADDRESSBUILDINGNAME" : null,
+				"ADDRESSFLOORNUMBER" : null,
+				"ADDRESSPOSTALCODE" : "148958",
+				"ADDRESSSTREETNAME" : "Stirling Road",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-queenstownp.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "Queenstown Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "359DDC544134F24B",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 103.89390610277434, 1.392785585870242 ]
+			},
+			"properties" : {
+				"OBJECTID" : 1946,
+				"ADDRESSBLOCKHOUSENUMBER" : "2",
+				"ADDRESSBUILDINGNAME" : "Sengkang Community Hub",
+				"ADDRESSFLOORNUMBER" : "1",
+				"ADDRESSPOSTALCODE" : "545025",
+				"ADDRESSSTREETNAME" : "Sengkang Square",
+				"ADDRESSTYPE" : null,
+				"DESCRIPTION" : "Cervical Screening service is available here.",
+				"HYPERLINK" : "https://polyclinic.singhealth.com.sg/patient-care/Pages/shp-sengkang.aspx",
+				"LANDXADDRESSPOINT" : null,
+				"LANDYADDRESSPOINT" : null,
+				"NAME" : "SengKang Polyclinic",
+				"PHOTOURL" : null,
+				"INC_CRC" : "EEB6F7D137BEC404",
+				"FMEL_UPD_D" : "20230811115132",
+				"ADDRESSUNITNUMBER" : "6"
+			}
+		}
+	]
+}
