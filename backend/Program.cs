@@ -1,9 +1,21 @@
+using GeoDSS.Api.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 var frontendOrigin = "http://localhost:5173"; // Vite's default dev port
 builder.Services.AddOpenApi();
+builder.Services.AddScoped<SpatialAnalysisService>();
+builder.Services.AddScoped<IPriorityScoringService, PriorityScoringService>();
+
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.Converters.Add(
+        new NetTopologySuite.IO.Converters.GeoJsonConverterFactory());
+});
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("FrontendDev", policy =>
@@ -13,6 +25,12 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+builder.Services.AddDbContext<GeoDssDbContext>(options =>
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("Default"),
+        o => o.UseNetTopologySuite()    
+    )
+);
 var app = builder.Build();
 app.UseCors("FrontendDev");
 
@@ -43,7 +61,8 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-app.MapGet("/api/health", () => Results.Ok(new { status = "ok" }));
+/* app.MapGet("/api/health", () => Results.Ok(new { status = "ok" })); */
+app.MapControllers();
 
 app.Run();
 
