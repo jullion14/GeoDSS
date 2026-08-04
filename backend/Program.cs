@@ -9,6 +9,7 @@ var frontendOrigin = "http://localhost:5173"; // Vite's default dev port
 builder.Services.AddOpenApi();
 builder.Services.AddScoped<SpatialAnalysisService>();
 builder.Services.AddScoped<IPriorityScoringService, PriorityScoringService>();
+builder.Services.AddScoped<ISensitivityService, SensitivityService>();
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {

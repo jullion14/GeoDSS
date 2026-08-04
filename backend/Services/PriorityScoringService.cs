@@ -73,36 +73,29 @@ public sealed class PriorityScoringService : IPriorityScoringService
         var (weights, rescaled, weightWarnings) = ResolveWeights(request.Weights);
         warnings.AddRange(weightWarnings);
 
-        // --- Pass 1: observed range per metric, ignoring missing values -----
-        var bounds = new Dictionary<string, (double Min, double Max)>();
+        // --- Pass 1: observed range per metric (shared with sensitivity) -----
+        var bounds = ScoringCore.ComputeBounds(areas);
+
         foreach (var metric in MetricCatalog.All)
         {
-            var present = areas
-                .Select(a => metric.Select(a))
-                .Where(v => v.HasValue && !double.IsNaN(v.Value) && !double.IsInfinity(v.Value))
-                .Select(v => v!.Value)
-                .ToList();
+            var present = areas.Count(a => ScoringCore.IsUsable(metric.Select(a)));
+            var b = bounds[metric.Key];
 
-            if (present.Count == 0)
+            if (present == 0)
             {
-                bounds[metric.Key] = (0, 0);
-                warnings.Add($"No values available for '{metric.Label}'; every area was assigned the neutral 0.5 for this criterion.");
+                warnings.Add($"No values available for '{metric.Label}'; every area was assigned the neutral {ScoringCore.NeutralNormalised:0.##} for this criterion.");
                 continue;
             }
 
-            var min = present.Min();
-            var max = present.Max();
-            bounds[metric.Key] = (min, max);
-
-            if (Math.Abs(max - min) < double.Epsilon)
+            if (Math.Abs(b.Max - b.Min) < double.Epsilon)
             {
-                warnings.Add($"All areas share the same value for '{metric.Label}'; it cannot separate them and contributes {NeutralNormalised:0.##} everywhere.");
+                warnings.Add($"All areas share the same value for '{metric.Label}'; it cannot separate them and contributes {ScoringCore.NeutralNormalised:0.##} everywhere.");
             }
 
-            var missing = areas.Count - present.Count;
+            var missing = areas.Count - present;
             if (missing > 0)
             {
-                warnings.Add($"{missing} area(s) are missing '{metric.Label}'. They were assigned the neutral {NeutralNormalised:0.##} rather than dropped.");
+                warnings.Add($"{missing} area(s) are missing '{metric.Label}'. They were assigned the neutral {ScoringCore.NeutralNormalised:0.##} rather than dropped.");
             }
         }
 
@@ -117,13 +110,12 @@ public sealed class PriorityScoringService : IPriorityScoringService
             foreach (var metric in MetricCatalog.All)
             {
                 var raw = metric.Select(area);
-                var (min, max) = bounds[metric.Key];
                 var weight = weights[metric.Key];
 
-                var isImputed = !raw.HasValue || double.IsNaN(raw.Value) || double.IsInfinity(raw.Value);
+                var isImputed = !ScoringCore.IsUsable(raw);
                 var normalised = isImputed
-                    ? NeutralNormalised
-                    : Normalise(raw!.Value, min, max, metric.Direction);
+                    ? ScoringCore.NeutralNormalised
+                    : ScoringCore.Normalise(raw!.Value, bounds[metric.Key], metric.Direction);
 
                 var contribution = weight * normalised;
                 total += contribution;
@@ -150,35 +142,22 @@ public sealed class PriorityScoringService : IPriorityScoringService
             });
         }
 
-        // --- Rank: highest score = rank 1. Ties share a rank. ---------------
-        var ranked = scored
-            .OrderByDescending(s => s.TotalScore)
-            .ThenBy(s => s.Name, StringComparer.OrdinalIgnoreCase)
-            .ToList();
+        // --- Rank via ScoringCore so ties resolve identically everywhere ----
+        var rankVector = ScoringCore.Rank(scored.Select(s => s.TotalScore).ToArray());
 
-        var results = new List<AreaPriorityScore>(ranked.Count);
-        double? previousScore = null;
-        var currentRank = 0;
-
-        for (var i = 0; i < ranked.Count; i++)
-        {
-            var s = ranked[i];
-            if (previousScore is null || Math.Abs(s.TotalScore - previousScore.Value) > 1e-9)
-            {
-                currentRank = i + 1;
-                previousScore = s.TotalScore;
-            }
-
-            results.Add(new AreaPriorityScore
+        var results = scored
+            .Select((s, i) => new AreaPriorityScore
             {
                 PlanningAreaId = s.PlanningAreaId,
                 Name = s.Name,
                 Region = s.Region,
                 TotalScore = s.TotalScore,
-                Rank = currentRank,
+                Rank = rankVector[i],
                 Components = s.Components
-            });
-        }
+            })
+            .OrderBy(s => s.Rank)
+            .ThenBy(s => s.Name, StringComparer.OrdinalIgnoreCase)
+            .ToList();
 
         var descriptors = MetricCatalog.All.Select(m => new MetricDescriptor
         {

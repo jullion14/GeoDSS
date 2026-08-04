@@ -3,6 +3,9 @@ import type { AreaPriorityScore, MetricDescriptor } from '../services/priorityAp
 import {
   floatingCard, railButton, chevronStyle, sectionStyle, colourFor, surface, type PanelTheme,
 } from './panelStyles';
+import type { AreaTornado } from '../services/sensitivityApi';
+import TornadoChart from './TornadoChart';
+import { InfoTip, HELP } from './InfoTip';
 
 interface Props {
   metrics: AccessibilityMetrics | null;
@@ -15,6 +18,8 @@ interface Props {
   scoreMetrics: MetricDescriptor[];
   totalAreas: number;
   theme: PanelTheme;
+  tornado: AreaTornado | null;
+  sensitivityLoading: boolean;
 }
 
 const fmtDist = (m: number | null) =>
@@ -27,7 +32,7 @@ const fmtNum = (n: number | null, digits = 0) =>
 
 export default function AreaSelector({
   metrics, loading, error, onClose, collapsed, onToggleCollapse,
-  score, scoreMetrics, totalAreas, theme,
+  score, scoreMetrics, totalAreas, theme, tornado, sensitivityLoading,
 }: Props) {
   const c = surface(theme);
 
@@ -80,7 +85,10 @@ export default function AreaSelector({
 
           {score ? (
             <>
-              <h4 style={sectionStyle(theme)}>Priority score</h4>
+              <h4 style={sectionStyle(theme)}>
+                Priority score
+                <InfoTip text={HELP.score} theme={theme} />
+              </h4>
               <div style={{
                 display: 'flex', alignItems: 'baseline', gap: 8,
                 padding: '6px 0 8px', borderBottom: `1px solid ${c.borderSubtle}`,
@@ -102,6 +110,14 @@ export default function AreaSelector({
                   }} />
                 ))}
               </div>
+
+              <p style={{
+                margin: '0 0 6px', fontSize: 10.5, color: c.textMuted, lineHeight: 1.45,
+                display: 'flex', alignItems: 'center',
+              }}>
+                weight × rescaled value = contribution
+                <InfoTip text={HELP.normalised} theme={theme} />
+              </p>
 
               {score.components.map(comp => {
                 const m = scoreMetrics.find(x => x.key === comp.key);
@@ -131,6 +147,15 @@ export default function AreaSelector({
               Not scored — this area has no resident population data, so it is
               excluded from the priority ranking.
             </p>
+          )}
+
+          {score && (
+            <TornadoChart
+              tornado={tornado}
+              totalAreas={totalAreas}
+              loading={sensitivityLoading}
+              theme={theme}
+            />
           )}
 
           <h4 style={sectionStyle(theme)}>Demographics</h4>
