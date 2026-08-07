@@ -213,7 +213,7 @@ export default function AnalysisView({
                   <td style={{ ...s.td, textAlign: 'left' }}>
                     <StabilityBar
                       stability={stabilityById.get(row.planningAreaId)}
-                      totalAreas={data?.areaCount ?? 25}
+                      totalAreas={data?.areaCount ?? 0}
                       theme={theme}
                     />
                   </td>
@@ -249,6 +249,7 @@ export default function AnalysisView({
           <ul style={s.notesList}>{notes.map(n => <li key={n}>{n}</li>)}</ul>
         </section>
       )}
+      <div style={{ height: 40, flexShrink: 0 }} aria-hidden />
     </div>
   );
 }
@@ -289,13 +290,14 @@ const mk = (c: ReturnType<typeof surface>, theme: PanelTheme): Record<string, CS
     display: 'flex', flexDirection: 'column', gap: 16,
     maxWidth: 1400, margin: '0 auto', width: '100%',
   },
-  header: { display: 'flex', flexDirection: 'column', gap: 4 },
+  header: { display: 'flex', flexDirection: 'column', gap: 4, flexShrink: 0 },
   title: { margin: 0, fontSize: 20, fontWeight: 500 },
   subtitle: { margin: 0, fontSize: 13, color: c.textMuted },
   card: {
     background: c.panel, border: `1px solid ${c.border}`,
     borderRadius: 10, padding: '14px 16px',
     display: 'flex', flexDirection: 'column', gap: 10,
+    flexShrink:0,
   },
   cardHead: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12 },
   cardTitle: { margin: 0, fontSize: 14, fontWeight: 500, display: 'flex', alignItems: 'center' },

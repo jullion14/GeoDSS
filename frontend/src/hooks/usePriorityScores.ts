@@ -51,10 +51,11 @@ export function usePriorityScores() {
 
       setLoading(true);
       fetchPriorityScores(weights, controller.signal)
-        .then(res => { setData(res); setError(null); })
+        .then(res => { setData(res); setMetrics(res.metrics); setError(null); })
         .catch(err => {
           if (err?.name === 'CanceledError' || err?.name === 'AbortError') return;
           setError('Scoring failed.');
+          setLoading(false);
         })
         .finally(() => { if (!controller.signal.aborted) setLoading(false); });
     }, 200);

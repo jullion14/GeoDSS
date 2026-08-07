@@ -1,0 +1,131 @@
+# Key decisions and gotchas
+
+> Part of the GeoDSS reference docs. See [`README.md`](../README.md) for the index.
+
+Things that cost time once and should not cost it twice.
+
+```
+DATABASE / ETL
+ 1. ST_Distance on SRID 4326 returns DEGREES. Must cast ::geography.
+    Values like 0.0043 instead of 478 are the tell.
+ 2. ST_PointOnSurface, not ST_Centroid — a centroid can fall outside a
+    concave polygon, so distances would be measured from outside the area.
+ 3. Nearest-facility search deliberately CROSSES planning area boundaries
+    (residents near an edge use the closest facility regardless of area).
+    Facility COUNTS stay within-area. The two answer different questions.
+ 4. import_data.py CASCADE silently drops views, materialised views and
+    functions built on these tables. Nothing currently does this, but a
+    scoring view would need its definition kept in the script.
+ 5. Facilities-per-10k is absurd for tiny areas (1 clinic in Tuas, pop 80,
+    = 125 per 10k). Scoring filters on population.
+
+BACKEND
+ 6. Population needs explicit HasKey(p => p.PlanningAreaId) — EF convention
+    looks for Id or PopulationId and finds neither.
+ 7. EVERY Population property needs explicit HasColumnName — none of the
+    snake_case names match C# convention. Omitting one gives a runtime
+    'column "Pct15_24" does not exist'. Population and AccessibilityMetrics
+    are the ONLY entities that cannot be inferred by convention.
+ 8. AccessibilityMetrics registered .HasNoKey().ToView(null) — required for
+    FromSqlRaw projection into a non-table class.
+ 9. NetTopologySuite.IO.GeoJSON4STJ + GeoJsonConverterFactory registered in
+    AddJsonOptions, or NTS geometries won't serialize to GeoJSON.
+10. .NET webapi template uses minimal APIs by default. Controllers/ was
+    created manually; REQUIRES AddControllers() AND MapControllers() in
+    Program.cs or every route 404s.
+11. CORS: registering the "FrontendDev" policy isn't enough —
+    app.UseCors("FrontendDev") must actually be called.
+
+FRONTEND
+12. react-leaflet <GeoJSON> does NOT re-run its style function on prop
+    change. The key prop must change to force a remount, or the selected
+    polygon won't visually highlight.
+13. preferCanvas={true} on MapContainer — Leaflet renders each CircleMarker
+    as an SVG DOM node; canvas is required once bus stops are on.
+14. Bus stops fetched server-filtered (?minServices=10). ~5,000
+    undifferentiated dots read as noise.
+15. CircleMarker over default Leaflet markers — default pin icons break
+    under Vite (asset path resolution).
+16. React <Popup> ESCAPES HTML strings, unlike Leaflet's bindPopup which
+    parses it. Pass JSX, not "<b>name</b>".
+17. Leaflet caches container size. Panels resizing the map need
+    invalidateSize() — handled by a ResizeObserver in MapView.
+18. LayerPanel iterates Object.keys(LAYER_META), so adding a layer there
+    adds its checkbox, colour dot and count automatically.
+19. Vite's react-ts template pins #root to a fixed width — overridden for
+    the full-bleed map layout.
+
+PROJECT
+20. Secrets: dotnet user-secrets (backend), frontend/.env, LTA_ACCOUNT_KEY
+    (env var). Never hardcoded — fetch_bus_data.py is committed publicly.
+21. Upload functionality scoped to display-only map layers, NOT integrated
+    into the analysis engine. Generalised ingestion deliberately out of
+    scope.
+22. Denominator change: population is now ALL residents, not HDB residents.
+    Facilities-per-10k figures shifted accordingly. State this in the report
+    rather than letting numbers quietly move between midterm and final.
+
+--- Added after the 2025 data migration -------------------------
+23. FromSqlRaw column lists are unforgiving. A missing comma before a new
+    column block and a trailing comma before FROM both parse as syntax
+    errors, and the only symptom is a 500 on every analysis endpoint. Paste
+    the generated SQL into psql before assuming the C# is at fault.
+24. Bus columns come from a CROSS JOIN LATERAL, so COUNT(*) returns 0 for an
+    area with no stops but MAX(service_count) returns NULL. BusiestStopServices
+    is int?; BusStopCount and WellServedBusStops are int. Do not "fix" the
+    null.
+25. Population floor for scoring is 1,000 residents, not > 0. Below that,
+    per-capita rates are unstable (1 clinic in Tuas, pop 80, = 125 per 10k)
+    and a single outlier stretches the min-max scale so every real area
+    compresses toward zero. This is an inclusion criterion, not a bug fix —
+    see 05-methodology.md and 08-limitations.md.
+26. /api/analysis/priority-config returns observedMin/observedMax as NULL by
+    design: bounds cannot be known until the data is scored. The frontend
+    must take its MetricDescriptor list from the SCORE response, not the
+    config response, or the observed ranges render as dashes forever.
+27. Never hardcode the scored-area count in the frontend. It moved 25 -> 49
+    -> 38 across one afternoon. StabilityBar divides by it to position the
+    range, so a stale fallback silently mis-scales every bar.
+28. index.css styles ALL <code> elements: display:inline-flex plus a fixed
+    --code-bg. The inline-flex stops long formula strings wrapping, and the
+    background ignores the panel theme. Components rendering <code> must set
+    display, background and padding explicitly, or scope the global rule.
+29. usePriorityScores must clear loading in the catch block as well as the
+    finally. The finally skips on abort, which can leave "Loading..." and an
+    error message on screen at the same time.
+
+--- Point query session ------------------------------------------
+30. A 405 on a route that clearly exists is usually the HTTPS redirection
+    middleware, not the route table. "Failed to determine the https port for
+    redirect" in the startup log is the tell. Wrap UseHttpsRedirection in
+    if (!app.Environment.IsDevelopment()).
+31. Swagger is not enabled by default in .NET 9+ webapi templates — Swashbuckle
+    was replaced by Microsoft.AspNetCore.OpenApi, which serves /openapi/v1.json
+    rather than a UI. A 404 on /swagger says nothing about your routes.
+32. Lateral subquery aliases are not visible to the outer SELECT. Computing
+    ST_Y(h.geom) in the outer list fails with "missing FROM-clause entry for
+    table h" — the value must be produced inside the lateral and read back
+    through its alias (nf.lat).
+33. Copy-pasting a lateral block and forgetting to change the table alias is
+    silent until runtime: FROM transit_exits t with ST_Y(h.geom) inside is the
+    same error as above but harder to spot.
+34. React props declared in the interface but NOT destructured in the function
+    signature are silently undefined inside JSX, not a compile error. This
+    caused two separate "renders fine but does nothing" bugs (selectedMetrics,
+    then probeEnabled). Check the signature first when a feature does nothing
+    at all.
+35. index.css styles every <code> element with display:inline-flex and a fixed
+    --code-bg. inline-flex prevents long formula strings from wrapping, and the
+    background ignores the panel theme. Components rendering <code> must set
+    display, background and padding explicitly.
+36. Flex children default to flex-shrink: 1, so cards in a column flex layout
+    compress and clip their content instead of letting the page scroll. Set
+    flexShrink: 0 on cards, and use a spacer element rather than bottom padding
+    at the end of a scroll container.
+37. Leaflet's permanent Tooltip renders as a styled bubble. Used as a numeric
+    label it needs background, border, shadow and the ::before arrow stripped —
+    see .probe-label in index.css.
+38. preferCanvas on MapContainer can let vector layers intercept clicks before
+    the map-level handler sees them. Probe clicks are therefore handled both by
+    a useMapEvents capture AND by the GeoJSON layer's own click handler.
+```

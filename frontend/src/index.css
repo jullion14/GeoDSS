@@ -112,3 +112,15 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.probe-label {
+   background: transparent;
+   border: none;
+   box-shadow: none;
+   color: #04201c;
+   font-size: 11px;
+   font-weight: 700;
+   padding: 0;
+   margin: 0;
+ }
+ .probe-label::before { display: none; }

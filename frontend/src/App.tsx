@@ -12,6 +12,8 @@ import { useSensitivity } from './hooks/useSensitivity';
 import { BASEMAPS, type BasemapKey } from './components/basemaps';
 import { surface } from './components/panelStyles';
 import type { AccessibilityMetrics } from './types/analysis';
+import ProbePanel from './components/ProbePanel';
+import { useProbePoints } from './hooks/useProbePoints';
 
 /**
  * Two views over one state.
@@ -31,6 +33,9 @@ export default function App() {
   const [analysisCollapsed, setAnalysisCollapsed] = useState(false);
   const [shadeByPriority, setShadeByPriority] = useState(false);
   const [basemap, setBasemap] = useState<BasemapKey>('dark');
+
+  const [probeCollapsed, setProbeCollapsed] = useState(false);
+  const probe = useProbePoints();
 
   const theme = BASEMAPS[basemap].theme;
   const c = surface(theme);
@@ -97,6 +102,12 @@ export default function App() {
           scoresById={priority.scoresById}
           shadeByPriority={shadeByPriority}
           basemap={basemap}
+          selectedMetrics={metrics}
+          probePoints={probe.points}
+          activeProbeId={probe.activeId}
+          probeEnabled={probe.enabled}
+          onProbeClick={probe.addPoint}
+          onSelectProbe={probe.setActiveId}
         />
 
         <div style={styles.topLeft}>
@@ -130,6 +141,26 @@ export default function App() {
             theme={theme}
             tornado={selectedAreaId != null ? sensitivity.tornadoById.get(selectedAreaId) ?? null : null}
             sensitivityLoading={sensitivity.loading}
+            activeProbe={probe.active}
+          />
+        </div>
+
+        {/* Bottom-left, sitting above the ranking strip. */}
+ 
+        <div style={styles.bottomLeft}>
+          <ProbePanel
+            points={probe.points}
+            activeId={probe.activeId}
+            onSelect={probe.setActiveId}
+            onRemove={probe.removePoint}
+            onClear={probe.clearPoints}
+            enabled={probe.enabled}
+            onToggleEnabled={probe.toggleEnabled}
+            atCapacity={probe.atCapacity}
+            withinAreaSpread={probe.withinAreaSpread}
+            collapsed={probeCollapsed}
+            onToggleCollapse={() => setProbeCollapsed(v => !v)}
+            theme={theme}
           />
         </div>
 
@@ -173,10 +204,15 @@ const styles = {
   tabs: { position: 'absolute' as const, top: 12, left: '50%', transform: 'translateX(-50%)', zIndex: 1100 },
   topLeft: {
     position: 'absolute' as const, top: 12, left: 12, zIndex: 1000,
-    maxHeight: 'calc(100% - 80px)',
+    maxHeight: 'calc(100% - 400px)',   // was calc(100% - 80px)
+    overflowY: 'auto' as const,
   },
   topRight: {
     position: 'absolute' as const, top: 12, right: 12, bottom: 58, zIndex: 1000,
     display: 'flex', flexDirection: 'column' as const, alignItems: 'flex-end',
+  },
+  bottomLeft: {
+    position: 'absolute' as const, left: 12, bottom: 58, zIndex: 1000,
+    display: 'flex', flexDirection: 'column' as const, alignItems: 'flex-start',
   },
 };

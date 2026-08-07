@@ -1,3 +1,4 @@
+using GeoDSS.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
@@ -17,4 +18,14 @@ public class AnalysisController : ControllerBase
     [HttpGet("areas")]
     public async Task<IActionResult> GetAllMetrics()
         => Ok(await _analysis.GetAllAsync());
+
+    [HttpGet("point")]
+    public async Task<ActionResult<PointAccessibility>> GetForPoint(
+    [FromQuery] double lat, [FromQuery] double lng)
+    {
+        var result = await _analysis.GetForPointAsync(lat, lng);
+        return result is null
+            ? NotFound(new { message = "Point is outside the Singapore data extent." })
+            : Ok(result);
+    }
 }

@@ -2,22 +2,23 @@ import { useEffect, useMemo, useState } from 'react';
 import type { FeatureCollection } from 'geojson';
 import api from '../services/api';
 
-export type LayerKey = 'planningAreas' | 'gps' | 'polyclinics' | 'transit';
+export type LayerKey = 'planningAreas' | 'gps' | 'polyclinics' | 'transit' | 'busStops';
 
 export const LAYER_META: Record<LayerKey, { label: string; color: string }> = {
   planningAreas: { label: 'Planning Areas', color: '#3388ff' },
   gps: { label: 'GP Clinics', color: '#e74c3c' },
   polyclinics: { label: 'Polyclinics', color: '#27ae60' },
   transit: { label: 'MRT Exits', color: '#8e44ad' },
+  busStops: { label: 'Bus Stops', color: '#f39c12' },
 };
 
 /** Layer data and visibility, lifted out of MapView so the map component only renders. */
 export function useMapLayers() {
   const [layers, setLayers] = useState<Record<LayerKey, FeatureCollection | null>>({
-    planningAreas: null, gps: null, polyclinics: null, transit: null,
+    planningAreas: null, gps: null, polyclinics: null, transit: null, busStops: null,
   });
   const [visible, setVisible] = useState<Record<LayerKey, boolean>>({
-    planningAreas: true, gps: true, polyclinics: true, transit: false,
+    planningAreas: true, gps: true, polyclinics: true, transit: false, busStops: false,
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -28,13 +29,17 @@ export function useMapLayers() {
       api.get('/api/healthcare/geojson?type=GP'),
       api.get('/api/healthcare/geojson?type=Polyclinic'),
       api.get('/api/transit/geojson'),
+      // Filtered server-side: 5,000 undifferentiated dots read as noise, and
+      // stops with 10+ services are the ones that carry any signal.
+      api.get('/api/busstops/geojson?minServices=10'),
     ])
-      .then(([pa, gp, poly, tr]) => {
+      .then(([pa, gp, poly, tr, bus]) => {
         setLayers({
           planningAreas: pa.data,
           gps: gp.data,
           polyclinics: poly.data,
           transit: tr.data,
+          busStops: bus.data,
         });
       })
       .catch(err => setError(err.message))

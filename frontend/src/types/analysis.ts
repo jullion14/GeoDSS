@@ -3,6 +3,13 @@ export interface AccessibilityMetrics {
   name: string;
   region: string | null;
 
+  repPointLat: number;
+  repPointLng: number;
+  nearestFacilityLat: number | null;
+  nearestFacilityLng: number | null;
+  nearestMrtLat: number | null;
+  nearestMrtLng: number | null;
+
   population: number | null;
   areaSqKm: number;
   populationDensity: number | null;
@@ -19,4 +26,8 @@ export interface AccessibilityMetrics {
   mrtExitCount: number;
   nearestMrtMeters: number | null;
   nearestMrtStation: string | null;
+
+  busStopCount: number;
+  wellServedBusStops: number;
+  busiestStopServices: number | null;
 }

@@ -6,6 +6,8 @@ import {
 import type { AreaTornado } from '../services/sensitivityApi';
 import TornadoChart from './TornadoChart';
 import { InfoTip, HELP } from './InfoTip';
+import type { ProbePoint } from '../services/pointApi';
+import { PROBE_COLOUR } from './ProbePanel';
 
 interface Props {
   metrics: AccessibilityMetrics | null;
@@ -20,6 +22,7 @@ interface Props {
   theme: PanelTheme;
   tornado: AreaTornado | null;
   sensitivityLoading: boolean;
+  activeProbe: ProbePoint | null;
 }
 
 const fmtDist = (m: number | null) =>
@@ -32,20 +35,33 @@ const fmtNum = (n: number | null, digits = 0) =>
 
 export default function AreaSelector({
   metrics, loading, error, onClose, collapsed, onToggleCollapse,
-  score, scoreMetrics, totalAreas, theme, tornado, sensitivityLoading,
+  score, scoreMetrics, totalAreas, theme, tornado, sensitivityLoading, activeProbe,
 }: Props) {
   const c = surface(theme);
 
-  const Row = ({ label, value, hint }: { label: string; value: string; hint?: string }) => (
+  const Row = ({ label, value, hint, accent, secondary }: {
+    label: string;
+    value: string;
+    hint?: string;
+    accent?: boolean;
+    secondary?: string;
+  }) => (
     <div style={{
       display: 'flex', justifyContent: 'space-between',
       padding: '5px 0', borderBottom: `1px solid ${c.borderSubtle}`, gap: 12,
+      borderLeft: accent ? `2px solid ${PROBE_COLOUR}` : undefined,
+      paddingLeft: accent ? 7 : 0,
     }}>
       <span style={{ fontSize: 12.5, color: c.textMuted }}>
         {label}
         {hint && <span style={{ display: 'block', fontSize: 11, opacity: 0.75 }}>{hint}</span>}
       </span>
-      <span style={{ fontSize: 12.5, fontWeight: 500, textAlign: 'right' }}>{value}</span>
+      <span style={{ textAlign: 'right' }}>
+        <span style={{ fontSize: 12.5, fontWeight: 500, display: 'block' }}>{value}</span>
+        {secondary && (
+          <span style={{ fontSize: 10.5, color: c.textMuted, opacity: 0.8 }}>{secondary}</span>
+        )}
+      </span>
     </div>
   );
 
@@ -82,6 +98,31 @@ export default function AreaSelector({
         <>
           <h3 style={{ margin: '0 0 2px', fontSize: 15 }}>{metrics.name}</h3>
           <p style={{ margin: '0 0 8px', fontSize: 11.5, color: c.textMuted }}>{metrics.region}</p>
+
+          {activeProbe?.result && (
+            <div style={{
+              display: 'flex', alignItems: 'center', gap: 7,
+              padding: '6px 9px', marginBottom: 8,
+              background: 'rgba(0, 194, 168, 0.12)',
+              border: `1px solid ${PROBE_COLOUR}`,
+              borderRadius: 6, fontSize: 11.5, lineHeight: 1.45,
+            }}>
+              <span style={{
+                width: 17, height: 17, borderRadius: '50%', flexShrink: 0,
+                background: PROBE_COLOUR, color: '#04201c',
+                fontSize: 10.5, fontWeight: 700,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+              }}>
+                {activeProbe.label}
+              </span>
+              <span>
+                Showing distances from measured point {activeProbe.label}
+                {activeProbe.result.planningAreaName
+                  && activeProbe.result.planningAreaId !== metrics.planningAreaId
+                  && ` (in ${activeProbe.result.planningAreaName})`}
+              </span>
+            </div>
+          )}
 
           {score ? (
             <>
@@ -167,16 +208,63 @@ export default function AreaSelector({
           <Row label="GP clinics" value={String(metrics.gpCount)} />
           <Row label="Polyclinics" value={String(metrics.polyclinicCount)} />
           <Row label="Facilities per 10k" hint="residents" value={fmtNum(metrics.facilitiesPer10k, 2)} />
-          <Row label="Nearest facility" hint={metrics.nearestFacilityName ?? undefined}
-               value={fmtDist(metrics.nearestFacilityMeters)} />
+
+          {/* // Nearest Healthcare facility display */}
+          {activeProbe?.result ? (
+            <Row
+              label="Nearest facility"
+              hint={`from point ${activeProbe.label} · ${activeProbe.result.nearestFacilityName ?? '—'}`}
+              value={fmtDist(activeProbe.result.nearestFacilityMeters)}
+              accent-secondary={`area reference point: ${fmtDist(metrics.nearestFacilityMeters)}`}
+            />
+          ) : (
+            <Row
+              label="Nearest facility"
+              hint={metrics.nearestFacilityName ?? undefined}
+              value={fmtDist(metrics.nearestFacilityMeters)}
+            />
+          )}
 
           <h4 style={sectionStyle(theme)}>Transit access</h4>
           <Row label="MRT exits in area" value={String(metrics.mrtExitCount)} />
-          <Row label="Nearest MRT" hint={metrics.nearestMrtStation ?? undefined}
-               value={fmtDist(metrics.nearestMrtMeters)} />
+
+          {/* // Showing nearest transit station display */}
+          {activeProbe?.result ? (
+            <Row
+              label="Nearest MRT"
+              hint={`from point ${activeProbe.label} · ${activeProbe.result.nearestMrtStation ?? '—'}`}
+              value={fmtDist(activeProbe.result.nearestMrtMeters)}
+              accent-secondary={`area reference point: ${fmtDist(metrics.nearestMrtMeters)}`}
+            />
+          ) : (
+            <Row
+              label="Nearest MRT"
+              hint={metrics.nearestMrtStation ?? undefined}
+              value={fmtDist(metrics.nearestMrtMeters)}
+            />
+          )}
+
+          <h4 style={sectionStyle(theme)}>Bus access</h4>
+          <Row label="Bus stops in area" value={String(metrics.busStopCount)} />
+          <Row label="Well-served stops" hint="10+ services"
+               value={String(metrics.wellServedBusStops)} />
+          <Row label="Busiest stop"
+               value={metrics.busiestStopServices
+                 ? `${metrics.busiestStopServices} services` : '—'} />
+          {activeProbe?.result && (
+            <Row
+              label="Nearest bus stop"
+              hint={`from point ${activeProbe.label} · ${activeProbe.result.nearestBusStopDescription ?? '—'}`}
+              value={fmtDist(activeProbe.result.nearestBusStopMeters)}
+            />
+          )}
+      
 
           <p style={{ fontSize: 11, color: c.textMuted, marginTop: 14, lineHeight: 1.5, opacity: 0.8 }}>
-            Distances measured from a representative point within the planning area.
+            Distances are straight-line. Area figures are measured from the
+            reference point marked on the map — an interior point of the
+            planning area, not its population centre. Measured points show the
+            distance from wherever you clicked.
           </p>
         </>
       )}
