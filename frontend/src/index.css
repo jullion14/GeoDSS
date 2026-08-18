@@ -124,3 +124,29 @@ code {
    margin: 0;
  }
  .probe-label::before { display: none; }
+
+ .layer-swatch {
+  width: 12px; height: 12px;
+  padding: 0; border: none; border-radius: 50%;
+  background: none; cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  flex-shrink: 0;
+}
+.layer-swatch::-webkit-color-swatch-wrapper { padding: 0; }
+.layer-swatch::-webkit-color-swatch { border: none; border-radius: 50%; }
+.layer-swatch::-moz-color-swatch { border: none; border-radius: 50%; }
+
+@keyframes search-pulse {
+  0%   { stroke-width: 3;   opacity: 1;   r: 8;  }
+  70%  { stroke-width: 1.5; opacity: 0.5; r: 20; }
+  100% { stroke-width: 1.5; opacity: 0;   r: 22; }
+}
+.search-pulse {
+  animation: search-pulse 1.4s ease-out 3;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .search-pulse { animation: none; opacity: 0.9; }
+}

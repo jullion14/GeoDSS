@@ -1,6 +1,7 @@
 import { LAYER_META, type LayerKey } from '../hooks/useMapLayers';
 import { floatingCard, railButton, chevronStyle, surface, SCORE_RAMP_STOPS, type PanelTheme } from './panelStyles';
 import { BASEMAPS, BASEMAP_ORDER, type BasemapKey } from './basemaps';
+import { useState } from 'react';
 
 interface Props {
   visible: Record<LayerKey, boolean>;
@@ -15,13 +16,19 @@ interface Props {
   basemap: BasemapKey;
   onBasemapChange: (key: BasemapKey) => void;
   theme: PanelTheme;
+  colours: Record<LayerKey, string>;
+  onColourChange: (key: LayerKey, colour: string) => void;
+  onResetColours: () => void;
+  coloursCustomised: boolean;
 }
 
 export default function LayerPanel({
   visible, onToggle, counts, loading, collapsed, onToggleCollapse,
   shadeByPriority, onToggleShading, canShade, basemap, onBasemapChange, theme,
+  colours, onColourChange, onResetColours, coloursCustomised,
 }: Props) {
   const c = surface(theme);
+  const [draft, setDraft] = useState<Partial<Record<LayerKey, string>>>({});
 
   if (collapsed) {
     return (
@@ -70,22 +77,38 @@ export default function LayerPanel({
       {(Object.keys(LAYER_META) as LayerKey[]).map(key => {
         const meta = LAYER_META[key];
         return (
-          <label key={key} style={{
+          <div key={key} style={{
             display: 'flex', alignItems: 'center', gap: 8,
-            marginBottom: 7, fontSize: 13, cursor: 'pointer',
+            marginBottom: 7, fontSize: 13,
           }}>
             <input
               type="checkbox"
               checked={visible[key]}
               onChange={() => onToggle(key)}
-              style={{ accentColor: meta.color }}
+              id={`layer-${key}`}
+              style={{ accentColor: colours[key], cursor: 'pointer' }}
             />
-            <span style={{ width: 9, height: 9, borderRadius: '50%', background: meta.color, flexShrink: 0 }} />
-            <span style={{ flex: 1 }}>{meta.label}</span>
+            <input
+              type="color"
+              className="layer-swatch"
+              value={draft[key] ?? colours[key]}
+              // The picker fires `input` continuously while dragging; committing each
+              // one rebuilds every marker in that layer. Commit on release instead.
+              onChange={e => setDraft(d => ({ ...d, [key]: e.target.value }))}
+              onBlur={() => {
+                const v = draft[key];
+                setDraft(d => { const { [key]: _, ...rest } = d; return rest; });
+                if (v && v !== colours[key]) onColourChange(key, v);
+              }}
+              title={`Change ${meta.label} colour`}
+            />
+            <label htmlFor={`layer-${key}`} style={{ flex: 1, cursor: 'pointer' }}>
+              {meta.label}
+            </label>
             {counts?.[key] !== undefined && (
               <span style={{ fontSize: 11, color: c.textMuted }}>{counts[key]}</span>
             )}
-          </label>
+          </div>
         );
       })}
 
@@ -97,7 +120,7 @@ export default function LayerPanel({
           cursor: canShade ? 'pointer' : 'default', opacity: canShade ? 1 : 0.5,
         }}>
           <input type="checkbox" checked={shadeByPriority} onChange={onToggleShading} disabled={!canShade} />
-          <span>Shade by priority</span>
+          <span>Shade by priority <br/>(Planning Areas)</span>
         </label>
 
         {shadeByPriority && canShade && (
@@ -114,6 +137,17 @@ export default function LayerPanel({
             </div>
           </div>
         )}
+        {coloursCustomised && (
+        <button
+          onClick={onResetColours}
+          style={{
+            marginTop: 8, background: 'none', border: 'none',
+            color: c.textMuted, cursor: 'pointer', fontSize: 11.5, padding: 0,
+          }}
+        >
+          Reset colours
+        </button>
+      )}
       </div>
     </aside>
   );

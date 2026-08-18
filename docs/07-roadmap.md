@@ -45,4 +45,12 @@ Authentication was considered and deliberately not built. The application holds
 no user data and persists nothing between sessions, so there is no resource to
 protect. Recorded as a deployment consideration in 08-limitations.md rather
 than an omission.
+
+- Cross-dataset facility search (/api/search) with scope filters and a
+  "measure from here" action feeding probe points
+- Opt-in geolocation with accuracy circle
+- User-customisable layer colours, persisted to localStorage
+- All ~5,000 bus stops rendered, density handled by zoom rather than by a
+  server-side service-count filter
+- App icon and page title
 ```

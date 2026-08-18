@@ -8,7 +8,7 @@ export const LAYER_META: Record<LayerKey, { label: string; color: string }> = {
   planningAreas: { label: 'Planning Areas', color: '#3388ff' },
   gps: { label: 'GP Clinics', color: '#e74c3c' },
   polyclinics: { label: 'Polyclinics', color: '#27ae60' },
-  transit: { label: 'MRT Exits', color: '#8e44ad' },
+  transit: { label: 'MRT/LRT Exits', color: '#8e44ad' },
   busStops: { label: 'Bus Stops', color: '#f39c12' },
 };
 
@@ -29,9 +29,8 @@ export function useMapLayers() {
       api.get('/api/healthcare/geojson?type=GP'),
       api.get('/api/healthcare/geojson?type=Polyclinic'),
       api.get('/api/transit/geojson'),
-      // Filtered server-side: 5,000 undifferentiated dots read as noise, and
-      // stops with 10+ services are the ones that carry any signal.
-      api.get('/api/busstops/geojson?minServices=10'),
+      // Full bus stops geojson
+      api.get('/api/busstops/geojson'),
     ])
       .then(([pa, gp, poly, tr, bus]) => {
         setLayers({

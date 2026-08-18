@@ -40,9 +40,9 @@ export default function ViewTabs({
               gap: 6,
             }}
           >
-            {tab.label}
+            <span style={{ lineHeight: 1 }}>{tab.label}</span>
             {tab.key === 'analysis' && analysisBadge != null && (
-              <span style={{ fontSize: 10.5, color: c.textMuted, fontVariantNumeric: 'tabular-nums' }}>
+              <span style={{ fontSize: 10.5, color: c.textMuted, lineHeight: 1, fontVariantNumeric: 'tabular-nums' }}>
                 {analysisBadge}
               </span>
             )}

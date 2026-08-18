@@ -102,4 +102,29 @@ frontend/src/services/pointApi.ts           point query client, ProbePoint type
 frontend/src/hooks/useProbePoints.ts        probe point list, active point,
                                             within-area spread comparison
 frontend/src/components/ProbePanel.tsx      bottom-left measured points panel
+
+--- Search, geolocation, layer theming ----------------------------
+SearchController.cs — GET /api/search?q=&types=&perType=
+  Four independent indexed queries (GP, polyclinic, MRT exit, bus stop),
+  each capped at perType so ~5,000 bus stops cannot crowd out 26
+  polyclinics. Returns a flat SearchHit list with a type discriminator.
+  Bus matches description, road name, and bus_stop_code by prefix.
+
+useLayerColours.ts — single source of truth for layer colour. Overrides in
+  localStorage, merged over LAYER_META defaults. Map markers, panel
+  swatches, probe ticks and measurement legs all read from here, so a
+  measurement leg always matches the feature it points at. Selection
+  highlight and probe teal are deliberately NOT layer colours.
+
+useGeolocation.ts — watchPosition, requested on demand only. Prompting on
+  load trains users to deny before they know what it is for, and denial is
+  sticky.
+
+MapView helper components (all return null, all direct children of
+  MapContainer): InvalidateOnResize, ZoomWatch, DragWatch,
+  ProbeClickCapture, PanToActiveProbe, FlyToTarget.
+
+types/map.ts — FlyTarget, shared by search results and the locate button.
+  The nonce field exists so flying to the same coordinates twice still
+  fires the effect.
 ```

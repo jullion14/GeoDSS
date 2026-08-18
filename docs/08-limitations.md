@@ -119,3 +119,22 @@ rather than omissions.
 accessibility at arbitrary locations but never feed the priority score, so the
 unit of analysis remains the planning area. A reader who sees point-level
 interaction should not infer that the scoring unit changed.
+
+**21. Facility markers cannot be clicked while the planning-areas layer is visible.** The polygon captures the click. Leaflet resolves this with pane
+ordering, but pane-based click-through does not compose with the canvas
+renderer, and canvas rendering is required to keep ~5,900 markers
+responsive. Toggling the layer off is the workaround. Moving the three
+smaller point layers to SVG while leaving bus stops on canvas would fix it,
+at the cost of a mixed rendering strategy.
+
+**22. Geolocation is environment-dependent.** It requires a secure context
+(localhost qualifies; http://192.168.x.x does not), an enabled OS location
+service, and an unblocked network lookup — desktop machines have no GPS.
+Failures surface as an explicit message rather than silently. Probe points
+cover the same analytical ground without the hardware dependency.
+
+**23. Bus service identity is not stored, only the count per stop.**
+Searching by service number ("which stops serve 972") is therefore
+unsupported. The ETL sees the individual services when deriving
+service_count, so this is a retention decision rather than a data
+limitation.

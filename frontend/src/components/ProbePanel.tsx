@@ -1,6 +1,7 @@
 import type { CSSProperties } from 'react';
 import type { ProbePoint } from '../services/pointApi';
 import { floatingCard, railButton, chevronStyle, surface, type PanelTheme } from './panelStyles';
+import { LAYER_META, type LayerKey } from '../hooks/useMapLayers';
 
 interface Props {
   points: ProbePoint[];
@@ -15,6 +16,7 @@ interface Props {
   collapsed: boolean;
   onToggleCollapse: () => void;
   theme: PanelTheme;
+  colours: Record<LayerKey, string>;
 }
 
 const PROBE_COLOUR = '#00c2a8';
@@ -32,7 +34,7 @@ const fmtDist = (m: number | null | undefined) =>
 export default function ProbePanel({
   points, activeId, onSelect, onRemove, onClear,
   enabled, onToggleEnabled, atCapacity, withinAreaSpread,
-  collapsed, onToggleCollapse, theme,
+  collapsed, onToggleCollapse, theme, colours,
 }: Props) {
   const c = surface(theme);
   const s = mk(c);
@@ -51,7 +53,7 @@ export default function ProbePanel({
   }
 
   return (
-    <aside style={{ ...floatingCard(theme), width: 268, padding: '12px 14px' }}>
+    <aside style={{ ...floatingCard(theme), width: 300, padding: '12px 14px' }}>
       <div style={s.head}>
         <h3 style={s.title}>Measure from a point</h3>
         <button onClick={onToggleCollapse} style={chevronStyle(theme)} title="Hide">⌄</button>
@@ -108,19 +110,24 @@ export default function ProbePanel({
                           {p.result.planningAreaName ?? 'Outside any planning area'}
                         </div>
                         <div style={s.itemRow}>
-                          <span style={{ ...s.tick, background: '#e74c3c' }} />
-                          {fmtDist(p.result.nearestFacilityMeters)}
-                          <span style={s.itemSub}>{p.result.nearestFacilityName}</span>
+                          <span style={{ ...s.tick, background: p.result.nearestFacilityType === 'Polyclinic'
+                                ? colours.polyclinics
+                                : colours.gps, }} />
+                          <span style={s.dist}>{fmtDist(p.result.nearestFacilityMeters)}</span>
+                          <span style={s.itemSub} title={p.result.nearestFacilityName ?? ''}>
+                            {p.result.nearestFacilityName}</span>
                         </div>
                         <div style={s.itemRow}>
-                          <span style={{ ...s.tick, background: '#8e44ad' }} />
-                          {fmtDist(p.result.nearestMrtMeters)}
-                          <span style={s.itemSub}>{p.result.nearestMrtStation}</span>
+                          <span style={{ ...s.tick, background: colours.transit }} />
+                          <span style={s.dist}>{fmtDist(p.result.nearestMrtMeters)}</span>
+                          <span style={s.itemSub} title={p.result.nearestMrtStation ?? ''}>
+                            {p.result.nearestMrtStation}
+                          </span>
                         </div>
                         <div style={s.itemRow}>
-                          <span style={{ ...s.tick, background: '#f39c12' }} />
-                          {fmtDist(p.result.nearestBusStopMeters)}
-                          <span style={s.itemSub}>
+                          <span style={{ ...s.tick, background: colours.busStops }} />
+                          <span style={s.dist}>{fmtDist(p.result.nearestBusStopMeters)}</span>
+                          <span style={s.itemSub} title={p.result.nearestBusStopDescription ?? ''}>
                             {p.result.nearestBusStopServices != null
                               ? `${p.result.nearestBusStopServices} services`
                               : p.result.nearestBusStopDescription}
@@ -196,7 +203,14 @@ const mk = (c: ReturnType<typeof surface>): Record<string, CSSProperties> => ({
     display: 'flex', alignItems: 'center', gap: 6,
     fontSize: 11.5, fontVariantNumeric: 'tabular-nums',
   },
+  dist: {
+  flexShrink: 0,
+  whiteSpace: 'nowrap',
+  minWidth: 52,          // aligns names into a column across rows
+  textAlign: 'right',
+  },
   itemSub: {
+    flex: 1, minWidth: 0,
     color: c.textMuted, fontSize: 11,
     overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
   },

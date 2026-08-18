@@ -42,8 +42,12 @@ FRONTEND
     polygon won't visually highlight.
 13. preferCanvas={true} on MapContainer — Leaflet renders each CircleMarker
     as an SVG DOM node; canvas is required once bus stops are on.
-14. Bus stops fetched server-filtered (?minServices=10). ~5,000
-    undifferentiated dots read as noise.
+14. Bus stops: ALL ~5,000 fetched, not server-filtered. The old
+    ?minServices=10 filter made the layer inconsistent with the probe
+    endpoint, which measures against every stop — a leg could end at a stop
+    that was never sent to the browser. Noise is handled at render time
+    instead: <10-service stops are smaller, fainter, and hidden below
+    zoom 14.
 15. CircleMarker over default Leaflet markers — default pin icons break
     under Vite (asset path resolution).
 16. React <Popup> ESCAPES HTML strings, unlike Leaflet's bindPopup which
@@ -128,4 +132,48 @@ PROJECT
 38. preferCanvas on MapContainer can let vector layers intercept clicks before
     the map-level handler sees them. Probe clicks are therefore handled both by
     a useMapEvents capture AND by the GeoJSON layer's own click handler.
+
+--- Frontend refinement session ----------------------------------
+39. CORRECTION to #38: the GeoJSON layer's own probe click handler has been
+    removed. Probe clicks are now handled ONLY by ProbeClickCapture at the
+    map level. The dual handling meant probe mode silently stopped working
+    whenever the planning-areas layer was hidden, since the polygon was
+    doing the work the map-level capture was supposed to do.
+40. GeoJSON onEachFeature runs ONCE per layer creation. Props read inside
+    the handler are captured then and go stale; the layer only rebuilds when
+    its `key` changes. probeEnabled is therefore read through a ref. Symptom
+    is a click handler behaving according to state from several interactions
+    ago. Related to #34 — both are "silently wrong value" failures, not
+    compile errors.
+41. MapView's JSX nests deeply (fragment + IIFE + conditionals). Render
+    blocks were twice placed inside the `selectedMetrics && selectedAreaId
+    === ...` guard by accident and never rendered — first ProbeClickCapture,
+    then the whole probePoints and userPosition blocks. Anything that should
+    always render must be a DIRECT child of MapContainer.
+42. Leaflet pane ordering (markerPane above overlayPane) does NOT compose
+    with preferCanvas. Canvas renders one <canvas> per pane, so
+    pointer-events cannot be re-enabled per marker: either the pane swallows
+    every click or passes all of them through. Reverted — see
+    08-limitations.md.
+43. <input type="color"> onChange maps to the `input` event and fires
+    continuously while dragging. Committing each event rebuilt ~5,900
+    markers. Fixed with local draft state committed on blur. The draft must
+    be cleared on commit or it permanently shadows the real value and
+    "Reset colours" appears to do nothing.
+44. useMemo on marker arrays only protects the OTHER layers. The layer being
+    recoloured still rebuilds on every event, so #43 is required as well,
+    not instead.
+45. `Position` collides with both the DOM global and geojson's coordinate
+    tuple. A missing import resolves silently to the wrong type and still
+    compiles. Named UserPosition for this reason.
+46. overflow on a container clips absolutely-positioned descendants.
+    styles.topLeft had overflowY:'auto', which cut off SearchBar's results
+    dropdown. Scroll belongs on the inner list, not the panel stack.
+47. enableHighAccuracy:true makes desktop geolocation hang until timeout —
+    laptops have no GPS, so the browser waits for a fix it cannot obtain.
+    false plus a 30s timeout resolves via network lookup. Separately:
+    watchPosition keeps retrying after TIMEOUT, so the error handler must
+    NOT clear the watch in that branch.
+48. L.svg() belongs at module scope. In the component body it constructs a
+    new renderer every render and orphans the previous one.
 ```

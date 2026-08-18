@@ -1,19 +1,24 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import api from './services/api';
 import MapView from './components/MapView';
 import LayerPanel from './components/LayerPanel';
 import AreaSelector from './components/AreaSelector';
 import RankingStrip from './components/RankingStrip';
 import AnalysisView from './components/AnalysisView';
+import SearchBar from './components/SearchBar';
 import ViewTabs, { type ViewKey } from './components/ViewTabs';
 import { useMapLayers } from './hooks/useMapLayers';
 import { usePriorityScores } from './hooks/usePriorityScores';
 import { useSensitivity } from './hooks/useSensitivity';
 import { BASEMAPS, type BasemapKey } from './components/basemaps';
-import { surface } from './components/panelStyles';
+import { surface, railButton, floatingCard } from './components/panelStyles';
 import type { AccessibilityMetrics } from './types/analysis';
 import ProbePanel from './components/ProbePanel';
 import { useProbePoints } from './hooks/useProbePoints';
+import { useLayerColours } from './hooks/useLayerColours';
+import { useGeolocation } from './hooks/useGeolocation';
+import { flyTarget, type FlyTarget } from './types/map';
+
 
 /**
  * Two views over one state.
@@ -32,13 +37,22 @@ export default function App() {
   const [layersCollapsed, setLayersCollapsed] = useState(false);
   const [analysisCollapsed, setAnalysisCollapsed] = useState(false);
   const [shadeByPriority, setShadeByPriority] = useState(false);
-  const [basemap, setBasemap] = useState<BasemapKey>('dark');
+  const [basemap, setBasemap] = useState<BasemapKey>('light');
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [flyTo, setFlyTo] = useState<FlyTarget | null>(null);
+  
 
   const [probeCollapsed, setProbeCollapsed] = useState(false);
   const probe = useProbePoints();
 
   const theme = BASEMAPS[basemap].theme;
   const c = surface(theme);
+  const layerColours = useLayerColours();
+
+  const geo = useGeolocation();
+  const flownToUser = useRef(false);
+  const [centredOnUser, setCentredOnUser] = useState(false);
+  const handleUserPanned = useCallback(() => setCentredOnUser(false), []);
 
   const { layers, visible, toggleLayer, counts, loading: layersLoading, error: layersError } = useMapLayers();
   const priority = usePriorityScores();
@@ -59,6 +73,32 @@ export default function App() {
       .catch(err => setMetricsError(err.message))
       .finally(() => setMetricsLoading(false));
   }, [selectedAreaId]);
+
+  // Fly to the first fix — a marker that appears off-screen reads as nothing
+  // having happened.
+    useEffect(() => {
+      if (!geo.position || flownToUser.current) return;
+      flownToUser.current = true;
+      setFlyTo(flyTarget(geo.position.lat, geo.position.lng, 16));
+      setCentredOnUser(true);
+  }, [geo.position]);
+
+    const handleLocate = () => {
+      if (geo.status !== 'tracking' || !geo.position) {
+        flownToUser.current = false;
+        setCentredOnUser(false);
+        geo.toggle();
+        return;
+      }
+      if (centredOnUser) {
+        flownToUser.current = false;
+        setCentredOnUser(false);
+        geo.stop();
+      } else {
+        setFlyTo(flyTarget(geo.position.lat, geo.position.lng, 16));
+        setCentredOnUser(true);
+      }
+  };
 
   const handleSelectArea = useCallback((id: number | null) => {
     setSelectedAreaId(id);
@@ -103,28 +143,50 @@ export default function App() {
           shadeByPriority={shadeByPriority}
           basemap={basemap}
           selectedMetrics={metrics}
+          colours={layerColours.colours}
           probePoints={probe.points}
           activeProbeId={probe.activeId}
           probeEnabled={probe.enabled}
           onProbeClick={probe.addPoint}
           onSelectProbe={probe.setActiveId}
+          userPosition={geo.position}
+          flyTo={flyTo}
+          onUserPanned={handleUserPanned}
         />
 
         <div style={styles.topLeft}>
-          <LayerPanel
-            visible={visible}
-            onToggle={toggleLayer}
-            counts={counts}
-            loading={layersLoading}
-            collapsed={layersCollapsed}
-            onToggleCollapse={() => setLayersCollapsed(v => !v)}
-            shadeByPriority={shadeByPriority}
-            onToggleShading={() => setShadeByPriority(v => !v)}
-            canShade={priority.scoresById.size > 0}
-            basemap={basemap}
-            onBasemapChange={setBasemap}
+          <SearchBar
             theme={theme}
+            colours={layerColours.colours}
+            onGoTo={hit => setFlyTo(flyTarget(hit.lat, hit.lng, 17, hit))}
+            onMeasureFrom={hit => probe.addPoint(hit.lat, hit.lng)}
+            onOpenChange={setSearchOpen}
           />
+          <div style={{
+              position: 'relative', zIndex: 1,
+              opacity: searchOpen ? 0.4 : 1,
+              transition: 'opacity 0.15s',
+              pointerEvents: searchOpen ? 'none' : undefined,
+            }}>
+            <LayerPanel
+              visible={visible}
+              onToggle={toggleLayer}
+              counts={counts}
+              loading={layersLoading}
+              collapsed={layersCollapsed}
+              onToggleCollapse={() => setLayersCollapsed(v => !v)}
+              shadeByPriority={shadeByPriority}
+              onToggleShading={() => setShadeByPriority(v => !v)}
+              canShade={priority.scoresById.size > 0}
+              basemap={basemap}
+              onBasemapChange={setBasemap}
+              theme={theme}
+              colours={layerColours.colours}
+              onColourChange={layerColours.setColour}
+              onResetColours={layerColours.resetColours}
+              coloursCustomised={layerColours.isCustomised}
+            />
+          </div>
         </div>
 
         <div style={styles.topRight}>
@@ -161,7 +223,41 @@ export default function App() {
             collapsed={probeCollapsed}
             onToggleCollapse={() => setProbeCollapsed(v => !v)}
             theme={theme}
+            colours={layerColours.colours}
           />
+        </div>
+        
+         <div style={styles.locateControl}>
+          <button
+            onClick={handleLocate}
+            style={{
+              ...railButton(theme),
+              color: geo.status === 'tracking' ? '#2f80ed' : c.textMuted,
+            }}
+            title={
+              geo.status === 'locating' ? 'Locating…'
+              : geo.status !== 'tracking' ? 'Show my location'
+              : centredOnUser ? 'Hide my location'
+              : 'Centre on my location'
+            }
+            aria-label={
+              geo.status === 'locating' ? 'Locating'
+              : geo.status !== 'tracking' ? 'Show my location'
+              : centredOnUser ? 'Hide my location'
+              : 'Centre on my location'
+            }
+          >
+            {geo.status === 'locating' ? '◌' : '◎'}
+          </button>
+
+          {geo.message && (
+            <div style={{
+              ...floatingCard(theme),
+              padding: '6px 10px', fontSize: 11.5, maxWidth: 220, lineHeight: 1.45,
+            }}>
+              {geo.message}
+            </div>
+          )}
         </div>
 
         <RankingStrip
@@ -204,8 +300,7 @@ const styles = {
   tabs: { position: 'absolute' as const, top: 12, left: '50%', transform: 'translateX(-50%)', zIndex: 1100 },
   topLeft: {
     position: 'absolute' as const, top: 12, left: 12, zIndex: 1000,
-    maxHeight: 'calc(100% - 400px)',   // was calc(100% - 80px)
-    overflowY: 'auto' as const,
+    display: 'flex', flexDirection: 'column' as const, gap: 10,
   },
   topRight: {
     position: 'absolute' as const, top: 12, right: 12, bottom: 58, zIndex: 1000,
@@ -214,5 +309,9 @@ const styles = {
   bottomLeft: {
     position: 'absolute' as const, left: 12, bottom: 58, zIndex: 1000,
     display: 'flex', flexDirection: 'column' as const, alignItems: 'flex-start',
+  },
+   locateControl: {
+    position: 'absolute' as const, right: 12, bottom: 58, zIndex: 1000,
+    display: 'flex', flexDirection: 'column' as const, alignItems: 'flex-end', gap: 6,
   },
 };

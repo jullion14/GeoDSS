@@ -32,6 +32,13 @@ bus_stops
   description TEXT, service_count INT,
   planning_area_id INT FK, geom GEOMETRY(Point,4326)   [GiST + area idx]
 
+Search indexes (pg_trgm) — /api/search uses ILIKE '%x%', which is a
+sequential scan without them:
+  idx_bus_desc_trgm         bus_stops(description)          GIN
+  idx_transit_station_trgm  transit_exits(station_name)     GIN
+  idx_healthcare_name_trgm  healthcare_facilities(name)     GIN
+  idx_bus_code              bus_stops(bus_stop_code)        btree
+
 planning_area_id on all point tables is pre-computed at import via
 ST_Contains, so per-area counts are a plain WHERE clause rather than a
 spatial join on every query.
