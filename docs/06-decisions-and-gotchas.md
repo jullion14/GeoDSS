@@ -176,4 +176,40 @@ PROJECT
     NOT clear the watch in that branch.
 48. L.svg() belongs at module scope. In the component body it constructs a
     new renderer every render and orphans the previous one.
+
+--- AI explanation module: payload and verification ---------------
+49. All figure formatting goes through ONE class (Fmt, nested in
+    ExplanationPayloadBuilder). The verifier tests model output by exact
+    string match against ledger values, so a figure formatted anywhere else
+    breaks the check silently. Adding a metric means adding its unit case to
+    BOTH Fmt.ByUnit and Fmt.RoundForDisplay.
+50. Fmt.ByUnit switches on MetricCatalog's Unit strings, which are "m",
+    "people/km²" and "per 10k". Guessing them ("per 10,000", "per km²")
+    falls through to the default and emits an unformatted decimal. Nothing
+    fails; the ledger just quietly contains "7412.31" next to properly
+    formatted values.
+51. Deltas must be computed from ALREADY-ROUNDED display values, not raw
+    floats. Independently rounding a value, a median and their difference
+    produces three individually correct figures that do not reconcile
+    (1,840 − 1,200 = 640, displayed as 630). An explanation quoting all
+    three looks like it cannot add up. Fmt.RoundForDisplay exists for this.
+52. Verification applies ONLY to generated prose. Sections whose body is
+    builder-supplied text (exclusion reason, caveats) are marked
+    IsVerbatim and excluded, or the forbidden-claim check flags the
+    system's own wording — the caveat "not scored or ranked" contains
+    three banned terms by design.
+53. RankStability exposes bestRank/worstRank AND p05Rank/p95Rank/
+    rankHeldShare. Use the latter. Min-max across 1,000 Dirichlet draws is
+    set by single unlucky samples and makes every area look volatile.
+54. Withhold a fact rather than instructing the model not to use it. Tuas
+    was handed "0.0 per 10,000 residents" (pop 80) alongside an
+    instruction to report counts rather than rates. A fact that should not
+    be quoted has no business being quotable — rates and weights are now
+    omitted from the ledger entirely for unscored areas.
+55. ToLowerInvariant mangles acronyms in metric labels ("distance to
+    nearest mrt exit"). Lower() in ExplanationPayloadBuilder preserves MRT.
+56. Minimal-API debug routes do not pick up AddControllers().
+    AddJsonOptions(...), so enums serialise as integers there and as
+    strings from ExplainController. Use ConfigureHttpJsonOptions if a
+    minimal route needs the same treatment.
 ```

@@ -128,3 +128,36 @@ matching the layer colours. Two things become visible that the numbers alone did
 not convey — that the reference point is an interior point rather than a
 population centre, and that lines frequently cross planning-area boundaries,
 because nearest-facility search is deliberately cross-boundary.
+
+## AI explanation module
+
+The explanation module operates on a **closed fact ledger**. Every figure the
+model may state is supplied to it as a `{ id, label, value }` record where
+`value` is a pre-formatted string produced in C#. The model is never handed a
+raw float, so no arithmetic path exists from its inputs to the text shown to
+the user. Comparative figures — medians, deltas, percentile positions — are
+computed by `ExplanationPayloadBuilder` and supplied as facts in their own
+right, removing any legitimate reason for the model to calculate.
+
+The constraint is enforced at three tiers, of decreasing strength:
+
+| Tier | Mechanism | Guarantee |
+|---|---|---|
+| Structural | `AIExplanationService` takes `HttpClient`, `IOptions` and `ILogger` only — no `DbContext`, no analysis service | Cannot reach the database. Compile-time. |
+| Preventive | Closed ledger, formatted strings, filtered prompt, low temperature | Reduces invention. Best-effort. |
+| Detective | `ExplanationVerifier` checks every numeric token against the supplied values | An untraceable figure cannot reach the user unflagged. |
+
+The third tier is the module's contribution. Prevention is best-effort;
+detection is the guarantee.
+
+The ledger returned to the frontend is complete, because the grounding panel
+shows the user everything the analysis produced. The ledger sent to the model
+is filtered — normalised intermediate values, alternative rank ranges and
+observed bounds are withheld — because every fact in the prompt is a figure
+the verifier will accept wherever it appears. Filtering can never cause a
+false positive, since verification still runs against the full ledger.
+
+**Verified across all 55 planning areas.** Deterministic explanations were
+generated for every area, scored and excluded, and checked: 38 scored areas
+yielded 30–32 verifiable figures each, 17 excluded areas 3–5, with zero
+findings in every case.

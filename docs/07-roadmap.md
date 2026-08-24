@@ -9,13 +9,18 @@ DONE — Dec: spatial analysis engine
 DONE — Jan: decision support (scoring, weights, ranking, sensitivity)
 
 - Feb: AI EXPLANATION MODULE
-  -> AIExplanationService.cs + Gemini API integration
+  DONE -> ExplanationPayload + ExplanationPayloadBuilder (closed fact ledger)
+  DONE -> ExplanationVerifier (numeric provenance check)
+  DONE -> TemplateExplanationWriter (deterministic fallback)
+  DONE -> PromptBuilder (prompt filter, serialisation, system instruction)
+  DONE -> verified across all 55 planning areas, zero findings
+  -> AIExplanationService.cs + Gemini call, responseSchema, Live|Cached|Offline
   -> ExplainController.cs, ExplanationPanel in the frontend
-  -> Prompt: pass all computed metrics AND score components explicitly;
-     constrain the model to reason only from supplied values; no DB access.
-     Bus figures and dwelling-type mix are good context for it to mention.
-  -> Sensitivity output is strong material: the model can say a ranking is
-     or isn't robust to reweighting.
+  -> deliberate failure-mode runs for the evaluation chapter
+
+Deferred: pairwise comparison mode (designed, cheap — same payload twice plus
+a precomputed delta block); ranking-as-a-whole and probe point explanations.
+
 - Mar: testing, evaluation, final report
 - Apr: final refinements + presentation
 

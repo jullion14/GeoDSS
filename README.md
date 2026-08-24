@@ -143,6 +143,8 @@ Data pipeline, spatial analysis, decision support, sensitivity analysis and
 point queries are complete. The AI explanation module is the remaining major
 build.
 
+| AI explanation module (Gemini) | Ledger, verifier and deterministic fallback done; model call outstanding |
+
 Authentication is deliberately not implemented — the application holds no user
 data and persists nothing between sessions, so there is no resource to protect.
 See limitation 19.

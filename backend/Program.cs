@@ -10,11 +10,14 @@ builder.Services.AddOpenApi();
 builder.Services.AddScoped<SpatialAnalysisService>();
 builder.Services.AddScoped<IPriorityScoringService, PriorityScoringService>();
 builder.Services.AddScoped<ISensitivityService, SensitivityService>();
+builder.Services.AddScoped<IExplanationPayloadBuilder, ExplanationPayloadBuilder>();
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.Converters.Add(
         new NetTopologySuite.IO.Converters.GeoJsonConverterFactory());
+    options.JsonSerializerOptions.Converters.Add(
+        new System.Text.Json.Serialization.JsonStringEnumConverter());
 });
 
 builder.Services.AddCors(options =>
@@ -65,7 +68,60 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-/* app.MapGet("/api/health", () => Results.Ok(new { status = "ok" })); */
+// Debug endpoints for development and testing. Not intended for production use.
+// =============================================================================
+
+app.MapGet("/api/_debug/payload/{id:int}", async (
+    int id,
+    IExplanationPayloadBuilder builder,
+    CancellationToken ct) =>
+{
+    var payload = await builder.BuildForAreaAsync(id, null, ct);
+    return payload is null ? Results.NotFound() : Results.Ok(payload);
+});
+
+app.MapGet("/api/_debug/explain/{id:int}", async (
+    int id,
+    IExplanationPayloadBuilder builder,
+    CancellationToken ct) =>
+{
+    var payload = await builder.BuildForAreaAsync(id, null, ct);
+    if (payload is null) return Results.NotFound();
+
+    var result = TemplateExplanationWriter.Write(payload);
+
+    var prose = string.Join("\n\n", result.Sections.Select(s => $"{s.Heading}\n{s.Body}"));
+    var verifiable = string.Join("\n\n",
+        result.Sections.Where(s => !s.IsVerbatim).Select(s => s.Body));
+
+    var verification = ExplanationVerifier.Verify(payload, verifiable);
+
+    return Results.Ok(new
+    {
+        prose,
+        verification,
+        sections = result.Sections
+    });
+});
+
+app.MapGet("/api/_debug/prompt/{id:int}", async (
+    int id,
+    IExplanationPayloadBuilder builder,
+    CancellationToken ct) =>
+{
+    var payload = await builder.BuildForAreaAsync(id, null, ct);
+    if (payload is null) return Results.NotFound();
+
+    return Results.Ok(new
+    {
+        factsInLedger = payload.Facts.Count,
+        factsInPrompt = PromptBuilder.FilterFacts(payload).Count,
+        systemInstruction = PromptBuilder.SystemInstruction(payload),
+        userMessage = PromptBuilder.UserMessage(payload)
+    });
+});
+// =============================================================================
+
 app.MapControllers();
 
 app.Run();

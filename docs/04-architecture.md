@@ -43,6 +43,11 @@ GeoDSS/                        (root, single Git repo)
 │   │   │                                tornado, sweep
 │   │   ├── ScoringCore.cs               shared normalisation/rank/score maths
 │   │   ├── MetricCatalog.cs             metric definitions + default weights
+│   │   ├── ExplanationPayloadBuilder.cs  closed fact ledger; all formatting
+│   │   │                                 and comparative arithmetic
+│   │   ├── ExplanationVerifier.cs        static; numeric tokens vs. ledger
+│   │   ├── TemplateExplanationWriter.cs  static; deterministic fallback
+│   │   ├── PromptBuilder.cs              prompt ledger filter + serialisation
 │   │   └── AIExplanationService.cs      (NOT YET BUILT — Gemini)
 │   ├── Models/
 │   │   ├── PlanningArea.cs
@@ -52,6 +57,9 @@ GeoDSS/                        (root, single Git repo)
 │   │   ├── BusStop.cs
 │   │   ├── AccessibilityMetrics.cs      keyless DTO for FromSqlRaw
 │   │   └── (priority + sensitivity request/response DTOs)
+│   │   ├── ExplanationPayload.cs        payload, subject, fact, method
+│   │   ├── ExplanationResult.cs         result + section (IsVerbatim)
+│   │   ├── VerificationReport.cs        outcome, findings, severity
 │   └── Data/
 │       └── GeoDssDbContext.cs           snake_case column mapping
 │

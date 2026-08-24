@@ -138,3 +138,29 @@ Searching by service number ("which stops serve 972") is therefore
 unsupported. The ETL sees the individual services when deriving
 service_count, so this is a retention decision rather than a data
 limitation.
+
+## AI explanation module
+
+**24. Verification catches novel figures, not misapplied ones.** Every
+numeric token in the model's output is checked against the set of values
+supplied to it. A figure that was never supplied is flagged. A figure that
+*was* supplied but is attached to the wrong claim is not: if the ledger
+contains a rank of 16 and a swing of 23, the model can state either number
+against either claim and the check passes. Provenance is guaranteed;
+attribution is not. The prompt ledger is deliberately filtered to reduce the
+supply of interchangeable-looking figures, and per-section `citedFactIds`
+provide the material for an attribution check, but that check is not yet
+implemented.
+
+**25. Non-numeric claims are unverifiable.** The check operates on figures.
+A sentence containing no numbers — a characterisation of an area, a causal
+suggestion, a framing of what the score implies — passes unexamined. The
+prompt constrains these through instruction only, which is the weakest tier
+of the three.
+
+**26. The AI layer is optional to correctness by design.**
+`TemplateExplanationWriter` produces the same sections from the same ledger
+with no model involved. This is a strength rather than a limitation, but it
+sets the ceiling on what the AI contributes: readability, not accuracy. No
+figure in a model-authored explanation is more correct than the same figure
+in the deterministic one.
