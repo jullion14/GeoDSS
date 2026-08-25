@@ -58,4 +58,7 @@ than an omission.
 - All ~5,000 bus stops rendered, density handled by zoom rather than by a
   server-side service-count filter
 - App icon and page title
+
+- Demo safety: freeze prompt, regenerate RecordedExplanations for demo
+  areas, commit them, verify Mode:Offline works with the network down
 ```

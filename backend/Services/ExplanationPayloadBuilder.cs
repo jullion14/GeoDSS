@@ -212,16 +212,12 @@ public sealed class ExplanationPayloadBuilder : IExplanationPayloadBuilder
         var stability = sens.Stability.FirstOrDefault(s => s.PlanningAreaId == planningAreaId);
         if (stability is not null)
         {
-            // The 5th–95th percentile band, not the full min–max. Extremes across
-            // 1,000 draws are set by single unlucky samples and make every area
-            // look unstable; the band is what the ranking actually does.
             f.Add("Rank range across the middle 90% of sampled weightings",
-                $"{stability.P05Rank} to {stability.P95Rank} (the middle 90% of samples)", "sensitivity", "rank_range");
+                $"{stability.P05Rank} to {stability.P95Rank}", "sensitivity", "rank_range");
 
-            f.Add("Median rank across sampled weightings",
-                Fmt.Rank(stability.MedianRank), "sensitivity", "median_rank");
+            f.Add("Median rank", Fmt.Rank(stability.MedianRank), "sensitivity", "median_rank");
 
-            f.Add("Share of sampled weightings that left the rank unchanged",
+            f.Add("Share of weightings holding this rank",
                 Fmt.Percent(stability.RankHeldShare), "sensitivity", "rank_held_share");
 
             f.Add("Stability assessment", stability.Stability.ToString(), "sensitivity", "stability_label");

@@ -164,3 +164,6 @@ with no model involved. This is a strength rather than a limitation, but it
 sets the ceiling on what the AI contributes: readability, not accuracy. No
 figure in a model-authored explanation is more correct than the same figure
 in the deterministic one.
+
+**27. Fact selection varies between runs.**
+At temperature 0.2 the same payload produced explanations citing different subsets of the ledger — one run omitted the sensitivity swing figure that gives "volatile" its meaning. Verification guarantees every figure stated is correct; nothing guarantees the same figures are stated each time. The section specification in the prompt constrains this but does not eliminate it.

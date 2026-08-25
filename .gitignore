@@ -6,6 +6,8 @@ backend/**/obj/
 *.user
 appsettings.Development.json
 appsettings.Local.json
+# AI explanation cache — regenerated on demand, invalidated by any prompt change
+backend/RecordedExplanations/
 
 # ===== Node / Frontend =====
 frontend/node_modules/

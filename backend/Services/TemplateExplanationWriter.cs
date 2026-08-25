@@ -157,7 +157,7 @@ public static class TemplateExplanationWriter
         });
 
         s.IfPresent("rank_range", (range, _) =>
-            s.Sentence($"Its rank fell in the range {range}."));
+            s.Sentence($"Its rank fell in the range {range} across the middle nine-tenths of samples."));
 
         s.IfPresent("stability_label", (label, _) =>
             s.Sentence($"On that basis its position is assessed as {label.ToLowerInvariant()}."));

@@ -212,4 +212,18 @@ PROJECT
     AddJsonOptions(...), so enums serialise as integers there and as
     strings from ExplainController. Use ConfigureHttpJsonOptions if a
     minimal route needs the same treatment.
+57. StringContent(json, Encoding.UTF8, "application/json") emits
+    Content-Type: application/json; charset=utf-8, which generateContent
+    rejects with a bare 400 INVALID_ARGUMENT naming no argument. The
+    identical body via curl succeeds because curl sends no charset.
+    Overwrite ContentType with MediaTypeHeaderValue("application/json").
+58. thinkingConfig.thinkingBudget = 0 is rejected by both gemini-3.6-flash
+    and gemini-3.5-flash-lite (400). Thinking is not disableable on 3.x via
+    this parameter; omit thinkingConfig entirely.
+59. responseSchema does not accept propertyOrdering. Also a bare 400.
+60. Default 15s timeout was too short: 3.6-flash takes ~40s on this prompt,
+    3.5-flash-lite ~3s. Timeout now 60s.
+61. Labels are prompt-facing. The model anchors on them and will weld them
+    into sentences ("residents live at a distance to nearest healthcare
+    facility of 960 m") unless told values are fixed but labels are not.
 ```

@@ -161,3 +161,26 @@ false positive, since verification still runs against the full ledger.
 generated for every area, scored and excluded, and checked: 38 scored areas
 yielded 30–32 verifiable figures each, 17 excluded areas 3–5, with zero
 findings in every case.
+
+### Model selection
+
+Two models were compared on the same payload (Jurong East, default weights)
+using identical prompts, with verification run against the full ledger in
+both cases:
+
+| Model | Latency | Figures verified |
+|---|---|---|
+| `gemini-3.6-flash` | 40.5 s | 26 / 26 |
+| `gemini-3.5-flash-lite` | 3.1 s | 23 / 23 |
+
+`gemini-3.5-flash-lite` was selected. Both models produced explanations in
+which every stated figure traced back to a supplied value, so the choice
+turned on latency: 40 seconds is unusable behind a button in a web
+interface, and 3 seconds is not. The larger model wrote marginally better
+connective prose and reached for one additional comparative fact, but the
+difference was small enough to be closed by adjustments to the prompt rather
+than by paying thirteen times the wait.
+
+Thinking could not be disabled on either model — `thinkingConfig` with a
+zero budget is rejected outright — so the latency difference reflects the
+models' default deliberation and is not tunable.

@@ -35,6 +35,12 @@ builder.Services.AddDbContext<GeoDssDbContext>(options =>
         o => o.UseNetTopologySuite()    
     )
 );
+
+builder.Services.Configure<GeminiOptions>(
+    builder.Configuration.GetSection(GeminiOptions.SectionName));
+
+builder.Services.AddHttpClient<IAIExplanationService, AIExplanationService>();
+
 var app = builder.Build();
 app.UseCors("FrontendDev");
 
@@ -119,6 +125,19 @@ app.MapGet("/api/_debug/prompt/{id:int}", async (
         systemInstruction = PromptBuilder.SystemInstruction(payload),
         userMessage = PromptBuilder.UserMessage(payload)
     });
+});
+
+app.MapGet("/api/_debug/ai/{id:int}", async (
+    int id,
+    IExplanationPayloadBuilder builder,
+    IAIExplanationService ai,
+    CancellationToken ct) =>
+{
+    var payload = await builder.BuildForAreaAsync(id, null, ct);
+    if (payload is null) return Results.NotFound();
+
+    var result = await ai.ExplainAsync(payload, ct);
+    return Results.Ok(result);
 });
 // =============================================================================
 

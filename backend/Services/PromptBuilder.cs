@@ -129,6 +129,7 @@ public static class PromptBuilder
         sb.AppendLine("Every figure you may state is supplied below as a fact with an id, a label and a value. These rules are absolute:");
         sb.AppendLine();
         sb.AppendLine("- State a figure only by copying a supplied value exactly as written, including its units, separators and decimal places. Write \"960 m\", not \"960 metres\", \"0.96 km\" or \"about a kilometre\".");
+        sb.AppendLine("- Copy values exactly, but not labels. A label describes what a figure is; write naturally around it. \"The nearest clinic is 960 m away\", not \"the distance to nearest healthcare facility is 960 m\".");
         sb.AppendLine("- Do not calculate. Do not add, subtract, average, convert units, compute percentages, or derive any figure from the supplied ones. Every comparison you might want to make has already been computed and supplied as its own fact.");
         sb.AppendLine("- If a figure you want is not supplied, do not state it. Write around it, or omit the point.");
         sb.AppendLine("- Attach each figure to the claim its label describes. A value labelled as a median is a median; a value labelled as a rank under one weighting is not the area's rank.");
@@ -144,8 +145,8 @@ public static class PromptBuilder
             sb.AppendLine();
             sb.AppendLine("1. **Overview** — what kind of place this is: population, density, how much healthcare provision it has.");
             sb.AppendLine("2. **Access to services** — how far residents are from healthcare and rail, and how that compares with other areas.");
-            sb.AppendLine("3. **Priority score** — where the area ranks, and which criteria drove that. Say plainly that a higher score means greater need, not better provision.");
-            sb.AppendLine("4. **How robust this is** — whether the ranking survives reasonable disagreement about the weights, using the sensitivity figures.");
+            sb.AppendLine("3. **Priority score** — where the area ranks, and which criteria drove that. Give the per-criterion contributions, not just the largest one: the reader should be able to see how the score was arrived at. Say plainly that a higher score means greater need, not better provision.");
+            sb.AppendLine("4. **How robust this is** — whether the ranking survives reasonable disagreement about the weights. State the rank range, the share of weightings holding the rank, and how many places the most influential criterion moves the area.");
         }
         else
         {
